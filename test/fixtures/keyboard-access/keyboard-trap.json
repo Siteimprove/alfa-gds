@@ -1,0 +1,277 @@
+{
+  "id": "keyboard-trap",
+  "category": "Keyboard Access",
+  "title": "Keyboard trap",
+  "aspects": {
+    "request": {
+      "method": "GET",
+      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/0fa31590bd66b147c6c5215e3b80217d/keyboard-trap.html",
+      "headers": {}
+    },
+    "response": {
+      "status": 0,
+      "headers": {},
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <title>Accessibility tools audit results - Example keyboard trap - GDS accessibility team</title>\n  <script src=\"../assets/javascript/jquery-1.12.0.min.js\"></script>\n  <script src=\"../assets/javascript/main.js\"></script>\n</head>\n<body>\n  <h1>Example Keyboard Trap</h1>\n\n  <p>\n    There are 2 links on this page. If you are using a keyboard you won't be able to get to the second link.\n    The keydown event has been used to open a new window.  When a person using a keyboard attempts to move focus away\n    from the first link, the keydown event will be triggered and the resulting function will be executed.\n  </p>\n\n  <ul>\n    <li><a class=\"trap\" href=\"https://en.wikipedia.org/wiki/Booby_trap\">trap</a></li>\n    <li><a href=\"https://en.wikipedia.org/wiki/Honey\">honey</a></li>\n  </ul>\n\n</body>\n</html>\n"
+    },
+    "document": {
+      "nodeType": 9,
+      "childNodes": [
+        {
+          "nodeType": 10,
+          "name": "html",
+          "publicId": "",
+          "systemId": "",
+          "childNodes": []
+        },
+        {
+          "nodeType": 1,
+          "prefix": null,
+          "localName": "html",
+          "attributes": [
+            {
+              "prefix": null,
+              "localName": "lang",
+              "value": "en"
+            }
+          ],
+          "shadowRoot": null,
+          "childNodes": [
+            {
+              "nodeType": 1,
+              "prefix": null,
+              "localName": "head",
+              "attributes": [],
+              "shadowRoot": null,
+              "childNodes": [
+                {
+                  "nodeType": 3,
+                  "data": "\n  ",
+                  "childNodes": []
+                },
+                {
+                  "nodeType": 1,
+                  "prefix": null,
+                  "localName": "title",
+                  "attributes": [],
+                  "shadowRoot": null,
+                  "childNodes": [
+                    {
+                      "nodeType": 3,
+                      "data": "Accessibility tools audit results - Example keyboard trap - GDS accessibility team",
+                      "childNodes": []
+                    }
+                  ]
+                },
+                {
+                  "nodeType": 3,
+                  "data": "\n  ",
+                  "childNodes": []
+                },
+                {
+                  "nodeType": 1,
+                  "prefix": null,
+                  "localName": "script",
+                  "attributes": [
+                    {
+                      "prefix": null,
+                      "localName": "src",
+                      "value": "../assets/javascript/jquery-1.12.0.min.js"
+                    }
+                  ],
+                  "shadowRoot": null,
+                  "childNodes": []
+                },
+                {
+                  "nodeType": 3,
+                  "data": "\n  ",
+                  "childNodes": []
+                },
+                {
+                  "nodeType": 1,
+                  "prefix": null,
+                  "localName": "script",
+                  "attributes": [
+                    {
+                      "prefix": null,
+                      "localName": "src",
+                      "value": "../assets/javascript/main.js"
+                    }
+                  ],
+                  "shadowRoot": null,
+                  "childNodes": []
+                },
+                {
+                  "nodeType": 3,
+                  "data": "\n",
+                  "childNodes": []
+                }
+              ]
+            },
+            {
+              "nodeType": 3,
+              "data": "\n",
+              "childNodes": []
+            },
+            {
+              "nodeType": 1,
+              "prefix": null,
+              "localName": "body",
+              "attributes": [],
+              "shadowRoot": null,
+              "childNodes": [
+                {
+                  "nodeType": 3,
+                  "data": "\n  ",
+                  "childNodes": []
+                },
+                {
+                  "nodeType": 1,
+                  "prefix": null,
+                  "localName": "h1",
+                  "attributes": [],
+                  "shadowRoot": null,
+                  "childNodes": [
+                    {
+                      "nodeType": 3,
+                      "data": "Example Keyboard Trap",
+                      "childNodes": []
+                    }
+                  ]
+                },
+                {
+                  "nodeType": 3,
+                  "data": "\n\n  ",
+                  "childNodes": []
+                },
+                {
+                  "nodeType": 1,
+                  "prefix": null,
+                  "localName": "p",
+                  "attributes": [],
+                  "shadowRoot": null,
+                  "childNodes": [
+                    {
+                      "nodeType": 3,
+                      "data": "\n    There are 2 links on this page. If you are using a keyboard you won't be able to get to the second link.\n    The keydown event has been used to open a new window.  When a person using a keyboard attempts to move focus away\n    from the first link, the keydown event will be triggered and the resulting function will be executed.\n  ",
+                      "childNodes": []
+                    }
+                  ]
+                },
+                {
+                  "nodeType": 3,
+                  "data": "\n\n  ",
+                  "childNodes": []
+                },
+                {
+                  "nodeType": 1,
+                  "prefix": null,
+                  "localName": "ul",
+                  "attributes": [],
+                  "shadowRoot": null,
+                  "childNodes": [
+                    {
+                      "nodeType": 3,
+                      "data": "\n    ",
+                      "childNodes": []
+                    },
+                    {
+                      "nodeType": 1,
+                      "prefix": null,
+                      "localName": "li",
+                      "attributes": [],
+                      "shadowRoot": null,
+                      "childNodes": [
+                        {
+                          "nodeType": 1,
+                          "prefix": null,
+                          "localName": "a",
+                          "attributes": [
+                            {
+                              "prefix": null,
+                              "localName": "class",
+                              "value": "trap"
+                            },
+                            {
+                              "prefix": null,
+                              "localName": "href",
+                              "value": "https://en.wikipedia.org/wiki/Booby_trap"
+                            }
+                          ],
+                          "shadowRoot": null,
+                          "childNodes": [
+                            {
+                              "nodeType": 3,
+                              "data": "trap",
+                              "childNodes": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": 3,
+                      "data": "\n    ",
+                      "childNodes": []
+                    },
+                    {
+                      "nodeType": 1,
+                      "prefix": null,
+                      "localName": "li",
+                      "attributes": [],
+                      "shadowRoot": null,
+                      "childNodes": [
+                        {
+                          "nodeType": 1,
+                          "prefix": null,
+                          "localName": "a",
+                          "attributes": [
+                            {
+                              "prefix": null,
+                              "localName": "href",
+                              "value": "https://en.wikipedia.org/wiki/Honey"
+                            }
+                          ],
+                          "shadowRoot": null,
+                          "childNodes": [
+                            {
+                              "nodeType": 3,
+                              "data": "honey",
+                              "childNodes": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": 3,
+                      "data": "\n  ",
+                      "childNodes": []
+                    }
+                  ]
+                },
+                {
+                  "nodeType": 3,
+                  "data": "\n\n\n\n",
+                  "childNodes": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "compatMode": "CSS1Compat",
+      "styleSheets": []
+    },
+    "device": {
+      "type": "screen",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "orientation": "landscape"
+      },
+      "display": {
+        "resolution": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "id": "html-element-has-an-invalid-value-in-the-lang-attribute",
+  "category": "Language of content",
+  "title": "html element has an invalid value in the lang attribute",
+  "aspects": {
+    "request": {
+      "method": "GET",
+      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/8083986d6586fa6a822673b6f63f2bba/html-element-has-an-invalid-value-in-the-lang-attribute.html",
+      "headers": {}
+    },
+    "response": {
+      "status": 0,
+      "headers": {},
+      "body": "<!DOCTYPE html>\n<html lang=\"foobar\">\n<head>\n  <title>Accessibility tools audit results - Invalid values and code - GDS accessibility team</title>\n</head>\n<body>\n  <h1>Accessibility Fails: Invalid Values and Code</h1>\n\n  <h2>Language of content</h2>\n  <h3>html element has an invalid value in the lang attribute</h3>\n  <div class=\"example\">\n    <p>This page has a lang attribute set to an invalid value</p>\n  </div>\n</body>\n</html>\n"
+    },
+    "document": {
+      "nodeType": 9,
+      "childNodes": [
+        {
+          "nodeType": 10,
+          "name": "html",
+          "publicId": "",
+          "systemId": "",
+          "childNodes": []
+        },
+        {
+          "nodeType": 1,
+          "prefix": null,
+          "localName": "html",
+          "attributes": [
+            {
+              "prefix": null,
+              "localName": "lang",
+              "value": "foobar"
+            }
+          ],
+          "shadowRoot": null,
+          "childNodes": [
+            {
+              "nodeType": 1,
+              "prefix": null,
+              "localName": "head",
+              "attributes": [],
+              "shadowRoot": null,
+              "childNodes": [
+                {
+                  "nodeType": 3,
+                  "data": "\n  ",
+                  "childNodes": []
+                },
+                {
+                  "nodeType": 1,
+                  "prefix": null,
+                  "localName": "title",
+                  "attributes": [],
+                  "shadowRoot": null,
+                  "childNodes": [
+                    {
+                      "nodeType": 3,
+                      "data": "Accessibility tools audit results - Invalid values and code - GDS accessibility team",
+                      "childNodes": []
+                    }
+                  ]
+                },
+                {
+                  "nodeType": 3,
+                  "data": "\n",
+                  "childNodes": []
+                }
+              ]
+            },
+            {
+              "nodeType": 3,
+              "data": "\n",
+              "childNodes": []
+            },
+            {
+              "nodeType": 1,
+              "prefix": null,
+              "localName": "body",
+              "attributes": [],
+              "shadowRoot": null,
+              "childNodes": [
+                {
+                  "nodeType": 3,
+                  "data": "\n  ",
+                  "childNodes": []
+                },
+                {
+                  "nodeType": 1,
+                  "prefix": null,
+                  "localName": "h1",
+                  "attributes": [],
+                  "shadowRoot": null,
+                  "childNodes": [
+                    {
+                      "nodeType": 3,
+                      "data": "Accessibility Fails: Invalid Values and Code",
+                      "childNodes": []
+                    }
+                  ]
+                },
+                {
+                  "nodeType": 3,
+                  "data": "\n\n  ",
+                  "childNodes": []
+                },
+                {
+                  "nodeType": 1,
+                  "prefix": null,
+                  "localName": "h2",
+                  "attributes": [],
+                  "shadowRoot": null,
+                  "childNodes": [
+                    {
+                      "nodeType": 3,
+                      "data": "Language of content",
+                      "childNodes": []
+                    }
+                  ]
+                },
+                {
+                  "nodeType": 3,
+                  "data": "\n  ",
+                  "childNodes": []
+                },
+                {
+                  "nodeType": 1,
+                  "prefix": null,
+                  "localName": "h3",
+                  "attributes": [],
+                  "shadowRoot": null,
+                  "childNodes": [
+                    {
+                      "nodeType": 3,
+                      "data": "html element has an invalid value in the lang attribute",
+                      "childNodes": []
+                    }
+                  ]
+                },
+                {
+                  "nodeType": 3,
+                  "data": "\n  ",
+                  "childNodes": []
+                },
+                {
+                  "nodeType": 1,
+                  "prefix": null,
+                  "localName": "div",
+                  "attributes": [
+                    {
+                      "prefix": null,
+                      "localName": "class",
+                      "value": "example"
+                    }
+                  ],
+                  "shadowRoot": null,
+                  "childNodes": [
+                    {
+                      "nodeType": 3,
+                      "data": "\n    ",
+                      "childNodes": []
+                    },
+                    {
+                      "nodeType": 1,
+                      "prefix": null,
+                      "localName": "p",
+                      "attributes": [],
+                      "shadowRoot": null,
+                      "childNodes": [
+                        {
+                          "nodeType": 3,
+                          "data": "This page has a lang attribute set to an invalid value",
+                          "childNodes": []
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": 3,
+                      "data": "\n  ",
+                      "childNodes": []
+                    }
+                  ]
+                },
+                {
+                  "nodeType": 3,
+                  "data": "\n\n\n",
+                  "childNodes": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "compatMode": "CSS1Compat",
+      "styleSheets": []
+    },
+    "device": {
+      "type": "screen",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "orientation": "landscape"
+      },
+      "display": {
+        "resolution": 1
+      }
+    }
+  }
+}

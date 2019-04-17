@@ -1,0 +1,913 @@
+{
+  "id": "form-control-that-changes-context-without-warning",
+  "category": "Forms",
+  "title": "Form control that changes context without warning",
+  "aspects": {
+    "request": {
+      "method": "GET",
+      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/864f644f620afbd4a8e274f6b45dae71/form-control-that-changes-context-without-warning.html",
+      "headers": {}
+    },
+    "response": {
+      "status": 0,
+      "headers": {},
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\" />\n  <title>Form control that changes context without warning</title>\n  <script src=\"/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/67111791f4135ad685de1cc133126245/javascript/jquery-1.12.0.min.js\"></script>\n  <script src=\"/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/c6fcb13d06a134cbe260014bb707930c/javascript/main.js\"></script>\n  <link rel=\"stylesheet\" href=\"/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/0baaf93a86fb587e7f0a98368f0a0719/stylesheets/tests.css\">\n</head>\n<body>\n  <h1>Form control that changes context without warning</h1>\n  <main><form><label for=\"language-selector\">Select your language</label>\n<select class=\"language-selector\" id=\"language-selector\">\n<option value=\"\">Change your language</option>\n<option value=\"en\">English</option>\n<option value=\"de\">German</option>\n<option value=\"fr\">French</option>\n</select></form></main>\n</body>\n</html>"
+    },
+    "document": {
+      "nodeType": 9,
+      "childNodes": [
+        {
+          "nodeType": 10,
+          "name": "html",
+          "publicId": "",
+          "systemId": "",
+          "childNodes": []
+        },
+        {
+          "nodeType": 1,
+          "prefix": null,
+          "localName": "html",
+          "attributes": [
+            {
+              "prefix": null,
+              "localName": "lang",
+              "value": "en"
+            }
+          ],
+          "shadowRoot": null,
+          "childNodes": [
+            {
+              "nodeType": 1,
+              "prefix": null,
+              "localName": "head",
+              "attributes": [],
+              "shadowRoot": null,
+              "childNodes": [
+                {
+                  "nodeType": 3,
+                  "data": "\n  ",
+                  "childNodes": []
+                },
+                {
+                  "nodeType": 1,
+                  "prefix": null,
+                  "localName": "meta",
+                  "attributes": [
+                    {
+                      "prefix": null,
+                      "localName": "charset",
+                      "value": "utf-8"
+                    }
+                  ],
+                  "shadowRoot": null,
+                  "childNodes": []
+                },
+                {
+                  "nodeType": 3,
+                  "data": "\n  ",
+                  "childNodes": []
+                },
+                {
+                  "nodeType": 1,
+                  "prefix": null,
+                  "localName": "title",
+                  "attributes": [],
+                  "shadowRoot": null,
+                  "childNodes": [
+                    {
+                      "nodeType": 3,
+                      "data": "Form control that changes context without warning",
+                      "childNodes": []
+                    }
+                  ]
+                },
+                {
+                  "nodeType": 3,
+                  "data": "\n  ",
+                  "childNodes": []
+                },
+                {
+                  "nodeType": 1,
+                  "prefix": null,
+                  "localName": "script",
+                  "attributes": [
+                    {
+                      "prefix": null,
+                      "localName": "src",
+                      "value": "/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/67111791f4135ad685de1cc133126245/javascript/jquery-1.12.0.min.js"
+                    }
+                  ],
+                  "shadowRoot": null,
+                  "childNodes": []
+                },
+                {
+                  "nodeType": 3,
+                  "data": "\n  ",
+                  "childNodes": []
+                },
+                {
+                  "nodeType": 1,
+                  "prefix": null,
+                  "localName": "script",
+                  "attributes": [
+                    {
+                      "prefix": null,
+                      "localName": "src",
+                      "value": "/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/c6fcb13d06a134cbe260014bb707930c/javascript/main.js"
+                    }
+                  ],
+                  "shadowRoot": null,
+                  "childNodes": []
+                },
+                {
+                  "nodeType": 3,
+                  "data": "\n  ",
+                  "childNodes": []
+                },
+                {
+                  "nodeType": 1,
+                  "prefix": null,
+                  "localName": "link",
+                  "attributes": [
+                    {
+                      "prefix": null,
+                      "localName": "rel",
+                      "value": "stylesheet"
+                    },
+                    {
+                      "prefix": null,
+                      "localName": "href",
+                      "value": "/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/0baaf93a86fb587e7f0a98368f0a0719/stylesheets/tests.css"
+                    }
+                  ],
+                  "shadowRoot": null,
+                  "childNodes": []
+                },
+                {
+                  "nodeType": 3,
+                  "data": "\n",
+                  "childNodes": []
+                }
+              ]
+            },
+            {
+              "nodeType": 3,
+              "data": "\n",
+              "childNodes": []
+            },
+            {
+              "nodeType": 1,
+              "prefix": null,
+              "localName": "body",
+              "attributes": [],
+              "shadowRoot": null,
+              "childNodes": [
+                {
+                  "nodeType": 3,
+                  "data": "\n  ",
+                  "childNodes": []
+                },
+                {
+                  "nodeType": 1,
+                  "prefix": null,
+                  "localName": "h1",
+                  "attributes": [],
+                  "shadowRoot": null,
+                  "childNodes": [
+                    {
+                      "nodeType": 3,
+                      "data": "Form control that changes context without warning",
+                      "childNodes": []
+                    }
+                  ]
+                },
+                {
+                  "nodeType": 3,
+                  "data": "\n  ",
+                  "childNodes": []
+                },
+                {
+                  "nodeType": 1,
+                  "prefix": null,
+                  "localName": "main",
+                  "attributes": [],
+                  "shadowRoot": null,
+                  "childNodes": [
+                    {
+                      "nodeType": 1,
+                      "prefix": null,
+                      "localName": "form",
+                      "attributes": [],
+                      "shadowRoot": null,
+                      "childNodes": [
+                        {
+                          "nodeType": 1,
+                          "prefix": null,
+                          "localName": "label",
+                          "attributes": [
+                            {
+                              "prefix": null,
+                              "localName": "for",
+                              "value": "language-selector"
+                            }
+                          ],
+                          "shadowRoot": null,
+                          "childNodes": [
+                            {
+                              "nodeType": 3,
+                              "data": "Select your language",
+                              "childNodes": []
+                            }
+                          ]
+                        },
+                        {
+                          "nodeType": 3,
+                          "data": "\n",
+                          "childNodes": []
+                        },
+                        {
+                          "nodeType": 1,
+                          "prefix": null,
+                          "localName": "select",
+                          "attributes": [
+                            {
+                              "prefix": null,
+                              "localName": "class",
+                              "value": "language-selector"
+                            },
+                            {
+                              "prefix": null,
+                              "localName": "id",
+                              "value": "language-selector"
+                            }
+                          ],
+                          "shadowRoot": null,
+                          "childNodes": [
+                            {
+                              "nodeType": 3,
+                              "data": "\n",
+                              "childNodes": []
+                            },
+                            {
+                              "nodeType": 1,
+                              "prefix": null,
+                              "localName": "option",
+                              "attributes": [
+                                {
+                                  "prefix": null,
+                                  "localName": "value",
+                                  "value": ""
+                                }
+                              ],
+                              "shadowRoot": null,
+                              "childNodes": [
+                                {
+                                  "nodeType": 3,
+                                  "data": "Change your language",
+                                  "childNodes": []
+                                }
+                              ]
+                            },
+                            {
+                              "nodeType": 3,
+                              "data": "\n",
+                              "childNodes": []
+                            },
+                            {
+                              "nodeType": 1,
+                              "prefix": null,
+                              "localName": "option",
+                              "attributes": [
+                                {
+                                  "prefix": null,
+                                  "localName": "value",
+                                  "value": "en"
+                                }
+                              ],
+                              "shadowRoot": null,
+                              "childNodes": [
+                                {
+                                  "nodeType": 3,
+                                  "data": "English",
+                                  "childNodes": []
+                                }
+                              ]
+                            },
+                            {
+                              "nodeType": 3,
+                              "data": "\n",
+                              "childNodes": []
+                            },
+                            {
+                              "nodeType": 1,
+                              "prefix": null,
+                              "localName": "option",
+                              "attributes": [
+                                {
+                                  "prefix": null,
+                                  "localName": "value",
+                                  "value": "de"
+                                }
+                              ],
+                              "shadowRoot": null,
+                              "childNodes": [
+                                {
+                                  "nodeType": 3,
+                                  "data": "German",
+                                  "childNodes": []
+                                }
+                              ]
+                            },
+                            {
+                              "nodeType": 3,
+                              "data": "\n",
+                              "childNodes": []
+                            },
+                            {
+                              "nodeType": 1,
+                              "prefix": null,
+                              "localName": "option",
+                              "attributes": [
+                                {
+                                  "prefix": null,
+                                  "localName": "value",
+                                  "value": "fr"
+                                }
+                              ],
+                              "shadowRoot": null,
+                              "childNodes": [
+                                {
+                                  "nodeType": 3,
+                                  "data": "French",
+                                  "childNodes": []
+                                }
+                              ]
+                            },
+                            {
+                              "nodeType": 3,
+                              "data": "\n",
+                              "childNodes": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": 3,
+                  "data": "\n\n",
+                  "childNodes": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "compatMode": "CSS1Compat",
+      "styleSheets": [
+        {
+          "disabled": false,
+          "cssRules": [
+            {
+              "type": 1,
+              "selectorText": ".fake-heading",
+              "style": {
+                "cssText": "font-size: 1.5em; font-weight: bold; margin: 0.67em 0px;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": "h5",
+              "style": {
+                "cssText": "font-size: 1em;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".test-container",
+              "style": {
+                "cssText": "overflow: hidden;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".constrained-box",
+              "style": {
+                "cssText": "position: relative; overflow: scroll;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".constrained-box .constrained",
+              "style": {
+                "cssText": "width: 100em; position: relative;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".constrained-box .constrained-extra",
+              "style": {
+                "cssText": "position: relative; float: right; margin-right: -100%;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".no-outline, .no-outline:focus",
+              "style": {
+                "cssText": "outline: none; background: none;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".small-text",
+              "style": {
+                "cssText": "font-size: 8px;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".italic",
+              "style": {
+                "cssText": "font-style: italic;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".all-caps",
+              "style": {
+                "cssText": "text-transform: uppercase;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".justify",
+              "style": {
+                "cssText": "text-align: justify;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".line-height",
+              "style": {
+                "cssText": "line-height: 90%;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".low-contrast-small-aa, a.low-contrast-small-aa:active, a.low-contrast-small-aa:focus, a.low-contrast-small-aa:visited",
+              "style": {
+                "cssText": "font-size: 12px; color: rgb(117, 121, 128);"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".low-contrast-large-aa, a.low-contrast-large-aa:active, a.low-contrast-large-aa:focus, a.low-contrast-large-aa:visited",
+              "style": {
+                "cssText": "font-size: 20px; color: rgb(135, 140, 140);"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".low-contrast-small-aaa, a.low-contrast-small-aaa:active, a.low-contrast-small-aaa:focus, a.low-contrast-small-aaa:visited",
+              "style": {
+                "cssText": "font-size: 12px; color: rgb(148, 153, 161);"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".low-contrast-large-aaa, a.low-contrast-large-aaa:active, a.low-contrast-large-aaa:focus, a.low-contrast-large-aaa:visited",
+              "style": {
+                "cssText": "font-size: 20px; color: rgb(129, 133, 140);"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": "input.low-contrast",
+              "style": {
+                "cssText": "border: 1px solid rgb(221, 221, 221);"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".resize",
+              "style": {
+                "cssText": "font-size: 1.5em; line-height: 24px; max-height: 64px; overflow: hidden;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": "#css-generated-text::after",
+              "style": {
+                "cssText": "content: \"Pizza\";"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".poisonous",
+              "style": {
+                "cssText": "color: rgb(161, 21, 11);"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".safe",
+              "style": {
+                "cssText": "color: rgb(10, 103, 3);"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".button",
+              "style": {
+                "cssText": "display: inline-block; padding: 10px 20px; color: rgb(255, 255, 255); background: rgb(0, 130, 59); border-bottom: 2px solid rgb(0, 0, 0); text-decoration: none; cursor: pointer;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".warning-icon",
+              "style": {
+                "cssText": "background-image: url(\"../images/important.png\"); background-size: 34px 34px; background-repeat: no-repeat; background-position: 0px 4px; min-height: 40px; padding-left: 40px; font-weight: bold; width: 30em;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".display-table",
+              "style": {
+                "cssText": "display: table; height: 100px; width: 100%; text-align: center;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".display-table-cell",
+              "style": {
+                "cssText": "display: table-cell; vertical-align: middle;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".unobvious-link",
+              "style": {
+                "cssText": "font-weight: bold; color: rgb(0, 0, 0);"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".unobvious-link a, .unobvious-link a:visited, .unobvious-link a:active, .unobvious-link a:hover",
+              "style": {
+                "cssText": "font-weight: bold; color: rgb(0, 0, 0); text-decoration: none;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".unobvious-link a:hover",
+              "style": {
+                "cssText": "text-decoration: underline;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".form-label",
+              "style": {
+                "cssText": "display: block;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".form-hint",
+              "style": {
+                "cssText": "color: rgb(111, 119, 123); margin: 0px;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": "#global-breadcrumb",
+              "style": {
+                "cssText": "background-color: rgb(255, 255, 255); max-width: 1020px; margin: 0px auto; z-index: 50; overflow: hidden;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": "#global-breadcrumb ol",
+              "style": {
+                "cssText": "max-width: 960px; margin: 0px 30px; padding: 0.75em 0px;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": "#global-breadcrumb ol li",
+              "style": {
+                "cssText": "font-family: nta, Arial, sans-serif; font-size: 14px; line-height: 1.14286; font-weight: 400; text-transform: none; background-image: url(\"https://assets.publishing.service.gov.uk/static/separator-871ef28abf1920b1b8050934ebec4366c18e3cba6ddb704392935e076a7e744d.png\"); background-position: 100% 50%; background-repeat: no-repeat; float: left; list-style: none; margin-left: 0px; margin-right: 0.5em; margin-bottom: 0.4em; padding-right: 1em;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": "#global-breadcrumb ol li a",
+              "style": {
+                "cssText": "color: rgb(11, 12, 12);"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": "#global-breadcrumb ol li strong",
+              "style": {
+                "cssText": "font-weight: normal;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": "#global-breadcrumb ol li:last-child",
+              "style": {
+                "cssText": "background-image: none; margin-right: 0px;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".not-visible-outline",
+              "style": {
+                "cssText": "background: rgb(255, 255, 255); border: 2px solid rgb(0, 0, 0); padding: 0.4em 2em;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".not-visible-outline:focus",
+              "style": {
+                "cssText": "border: 1px solid rgb(0, 0, 0); outline: rgb(0, 0, 0) solid 1px;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".not-visible-outline-link:focus",
+              "style": {
+                "cssText": "outline: rgb(0, 0, 0) solid 1px;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".too-much-whitespace",
+              "style": {
+                "cssText": "overflow: hidden;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".too-much-whitespace label",
+              "style": {
+                "cssText": "float: left;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".too-much-whitespace input",
+              "style": {
+                "cssText": "float: right;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".lightbox",
+              "style": {
+                "cssText": "position: fixed; width: 400px; top: 20%; left: 50%; margin-left: -200px; background: white; border: 3px solid black; padding: 10px;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".lightbox .close-button",
+              "style": {
+                "cssText": "float: right; color: rgb(0, 0, 0); text-decoration: none;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".lightbox span.close-button",
+              "style": {
+                "cssText": "cursor: pointer;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".links-by-colour-alone a",
+              "style": {
+                "cssText": "color: rgb(0, 94, 165);"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".links-by-colour-alone a:hover",
+              "style": {
+                "cssText": "color: rgb(46, 138, 202);"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".links-by-colour-alone .colour-alone-link",
+              "style": {
+                "cssText": "text-decoration: none;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".focus-order-broken a",
+              "style": {
+                "cssText": "margin-left: 0.75em;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".focus-order-broken .first, .focus-order-broken .third",
+              "style": {
+                "cssText": "float: left;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".focus-order-broken .second",
+              "style": {
+                "cssText": "float: right;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".wont-expand-box",
+              "style": {
+                "cssText": "overflow: hidden; height: 10em;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".wont-expand",
+              "style": {
+                "cssText": "border: 1px solid rgb(191, 193, 195); padding: 1em; position: absolute; width: 50%; height: 4.2em; overflow: hidden;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".concertina dt",
+              "style": {
+                "cssText": "padding-top: 14px; padding-bottom: 12px; border-top: 1px solid rgb(191, 193, 195);"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".concertina dt:hover",
+              "style": {
+                "cssText": "cursor: pointer; background: rgb(248, 248, 248);"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".concertina dt::before",
+              "style": {
+                "cssText": "content: \">\"; font-size: 0.7em; margin-left: 1em; margin-right: 0.4em; position: relative; top: -0.25em;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".concertina dt.expanded::before",
+              "style": {
+                "cssText": "content: \"v\";"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".errors-badly-identified .validation-summary",
+              "style": {
+                "cssText": "padding: 1em; border: 3px solid rgb(223, 48, 52); background: rgb(250, 225, 225);"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".errors-badly-identified label",
+              "style": {
+                "cssText": "display: block; margin: 1em 0px;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".errors-badly-identified label input",
+              "style": {
+                "cssText": "display: block;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".errors-colour-only .has-errors",
+              "style": {
+                "cssText": "background: rgb(250, 225, 225); border: 1px solid rgb(223, 48, 52);"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".error-poor-contrast .validation-summary",
+              "style": {
+                "cssText": "color: rgb(255, 255, 255);"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".error-poor-contrast .has-errors",
+              "style": {
+                "cssText": "border: 1px solid rgb(250, 225, 225);"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".required-format-not-given .error-message",
+              "style": {
+                "cssText": "display: block; color: rgb(223, 48, 52); margin: 0px 0px 0.3em;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".hidden",
+              "style": {
+                "cssText": "display: none;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".dropdown-nav > ul > li > ul",
+              "style": {
+                "cssText": "display: none;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".dropdown-nav > ul > li:hover > ul",
+              "style": {
+                "cssText": "display: block;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".tooltips-not-focusable",
+              "style": {
+                "cssText": "display: block; margin-bottom: 1em;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".tooltips-not-focusable .tooltip-icon",
+              "style": {
+                "cssText": "cursor: pointer; background: rgb(111, 119, 123); color: rgb(255, 255, 255); border-radius: 1em; width: 1.5em; height: 1.5em; display: inline-block; text-align: center;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".tooltips-not-focusable .tooltip-icon:hover + .tooltip-information",
+              "style": {
+                "cssText": "display: block;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".tooltips-not-focusable .tooltip-information",
+              "style": {
+                "cssText": "display: none; position: absolute; width: 12em; background: rgb(111, 119, 123); color: white; padding: 1em; margin-top: -10em; margin-left: 6.4em;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".tooltips-not-focusable .tooltip-information::after, .tooltips-not-focusable .tooltip-information::before",
+              "style": {
+                "cssText": "top: 100%; left: 50%; border: solid transparent; content: \" \"; height: 0px; width: 0px; position: absolute; pointer-events: none;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".tooltips-not-focusable .tooltip-information::after",
+              "style": {
+                "cssText": "border-color: rgb(111, 119, 123) rgba(111, 119, 123, 0) rgba(111, 119, 123, 0); border-width: 10px; margin-left: -10px;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".tooltips-not-focusable .tooltip-information::before",
+              "style": {
+                "cssText": "border-color: rgb(111, 119, 123) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0); border-width: 11px; margin-left: -11px;"
+              }
+            },
+            {
+              "type": 1,
+              "selectorText": ".not-article-content h2",
+              "style": {
+                "cssText": "margin: 0.5em 0px;"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "device": {
+      "type": "screen",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "orientation": "landscape"
+      },
+      "display": {
+        "resolution": 1
+      }
+    }
+  }
+}
