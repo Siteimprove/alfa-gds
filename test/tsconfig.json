@@ -6,5 +6,5 @@
     "helpers/fixture.ts",
     "helpers/summary.ts"
   ],
-  "references": [{ "path": "../vendor/alfa" }]
+  "references": [{ "path": "../vendor/alfa/packages" }]
 }
