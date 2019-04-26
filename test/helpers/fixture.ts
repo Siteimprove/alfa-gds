@@ -2,7 +2,8 @@ import * as path from "path";
 import * as fs from "fs";
 import { ExecutionContext } from "ava";
 
-import { Rule, Outcome, audit } from "@siteimprove/alfa-act";
+import { Rule, Result, Outcome, audit } from "@siteimprove/alfa-act";
+import { Seq } from "@siteimprove/alfa-collection";
 
 import { Context } from "./context";
 
@@ -36,9 +37,9 @@ export function fixture(
     [Outcome.Inapplicable]: 0
   };
 
-  const result = audit(test.aspects, rules)
-    .results.filter(result => rules.indexOf(result.rule) !== -1)
-    .reduce((result, candidate) =>
+  const result = Seq(audit(test.aspects, rules).results)
+    .filter(result => rules.indexOf(result.rule) !== -1)
+    .reduce<Result<any, any>>((result, candidate) =>
       precedence[candidate.outcome] > precedence[result.outcome]
         ? candidate
         : result
