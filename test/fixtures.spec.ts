@@ -1,5 +1,5 @@
 import ava, { TestInterface } from "ava";
-import { Rules } from "@siteimprove/alfa-wcag";
+import { Rules } from "@siteimprove/alfa-rules";
 import { Context } from "./helpers/context";
 import { fixture } from "./helpers/fixture";
 import { summary } from "./helpers/summary";
