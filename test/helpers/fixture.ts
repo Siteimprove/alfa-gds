@@ -2,23 +2,20 @@ import * as path from "path";
 import * as fs from "fs";
 import { ExecutionContext } from "ava";
 
-import { Rule, Result, Outcome, audit } from "@siteimprove/alfa-act";
-import { Seq } from "@siteimprove/alfa-collection";
+import { Audit, Rule, Outcome } from "@siteimprove/alfa-act";
+import { Option } from "@siteimprove/alfa-option";
+import { Page } from "@siteimprove/alfa-web";
 
 import { Context } from "./context";
 
-const { isArray } = Array;
-
-export interface FixtureOptions {}
-
-export function fixture(
+export async function fixture(
   t: ExecutionContext<Context>,
-  rule: Rule<any, any> | Array<Rule<any, any>>,
+  rule: Option<Rule<Page, unknown, any>>,
   category: string,
   fixture: string,
-  options: FixtureOptions = {}
-): void {
-  const rules = isArray(rule) ? rule : [rule];
+  options: fixture.Options = {}
+): Promise<void> {
+  t.plan(1);
 
   const directory = path.join("test", "fixtures", category);
 
@@ -28,44 +25,54 @@ export function fixture(
     fs.readFileSync(path.join(directory, filename), "utf8")
   );
 
-  t.plan(1);
+  const page = Page.from(test.page);
 
-  const precedence: { [O in Outcome]: number } = {
-    [Outcome.Failed]: 3,
-    [Outcome.CantTell]: 2,
-    [Outcome.Passed]: 1,
-    [Outcome.Inapplicable]: 0
-  };
+  const outcome = await Audit.of(page)
+    .add(rule.get())
+    .evaluate()
+    .map((outcomes) =>
+      [...outcomes]
+        .filter((outcome) => outcome.rule === rule.get())
+        .reduce((outcome, candidate) => {
+          if (Outcome.isFailed(outcome)) {
+            return outcome;
+          }
 
-  const result = Seq(audit(test.aspects, rules).results)
-    .filter(result => rules.indexOf(result.rule) !== -1)
-    .reduce<Result<any, any>>((result, candidate) =>
-      precedence[candidate.outcome] > precedence[result.outcome]
-        ? candidate
-        : result
+          if (Outcome.isFailed(candidate)) {
+            return candidate;
+          }
+
+          if (Outcome.isPassed(outcome)) {
+            return outcome;
+          }
+
+          if (Outcome.isPassed(candidate)) {
+            return candidate;
+          }
+
+          return outcome;
+        })
     );
 
-  t.assert(
-    [Outcome.Failed, Outcome.CantTell].includes(result.outcome),
-    test.id
-  );
+  console.log(outcome);
 
-  if (
-    result.outcome === Outcome.Failed ||
-    result.outcome === Outcome.CantTell
-  ) {
-    t.context.found.push(result);
-    t.log("Target", result.target);
+  t.assert(Outcome.isFailed(outcome) || Outcome.isCantTell(outcome), test.id);
+
+  if (Outcome.isFailed(outcome) || Outcome.isCantTell(outcome)) {
+    t.context.found.push(outcome);
+    t.log("Target", `${outcome.target}`);
   }
 }
 
 export namespace fixture {
+  export interface Options {}
+
   export function title(
     title: string = "",
-    rule: Rule<any, any> | Array<Rule<any, any>>,
+    rule: Option<Rule<Page, unknown, any>>,
     category: string,
     fixture: string,
-    options?: FixtureOptions
+    options?: Options
   ): string {
     const directory = path.join("test", "fixtures", category);
 

@@ -1,5 +1,6 @@
-import { Aspect, Target, Result, Outcome } from "@siteimprove/alfa-act";
+import { Outcome } from "@siteimprove/alfa-act";
+import { Page } from "@siteimprove/alfa-web";
 
 export interface Context {
-  found: Array<Result<Aspect, Target, Outcome.Failed | Outcome.CantTell>>;
+  found: Array<Outcome<Page, unknown, any>>;
 }

@@ -2,265 +2,299 @@
   "id": "keyboard-trap",
   "category": "Keyboard Access",
   "title": "Keyboard trap",
-  "aspects": {
+  "page": {
     "request": {
       "method": "GET",
-      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/0fa31590bd66b147c6c5215e3b80217d/keyboard-trap.html",
-      "headers": {}
+      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/ac5e22c52e9187324d056b6f78e55e22/keyboard-trap.html",
+      "headers": [],
+      "body": ""
     },
     "response": {
+      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/ac5e22c52e9187324d056b6f78e55e22/keyboard-trap.html",
       "status": 0,
-      "headers": {},
+      "headers": [],
       "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <title>Accessibility tools audit results - Example keyboard trap - GDS accessibility team</title>\n  <script src=\"../assets/javascript/jquery-1.12.0.min.js\"></script>\n  <script src=\"../assets/javascript/main.js\"></script>\n</head>\n<body>\n  <h1>Example Keyboard Trap</h1>\n\n  <p>\n    There are 2 links on this page. If you are using a keyboard you won't be able to get to the second link.\n    The keydown event has been used to open a new window.  When a person using a keyboard attempts to move focus away\n    from the first link, the keydown event will be triggered and the resulting function will be executed.\n  </p>\n\n  <ul>\n    <li><a class=\"trap\" href=\"https://en.wikipedia.org/wiki/Booby_trap\">trap</a></li>\n    <li><a href=\"https://en.wikipedia.org/wiki/Honey\">honey</a></li>\n  </ul>\n\n</body>\n</html>\n"
     },
     "document": {
-      "nodeType": 9,
-      "childNodes": [
+      "type": "document",
+      "children": [
         {
-          "nodeType": 10,
+          "type": "type",
           "name": "html",
-          "publicId": "",
-          "systemId": "",
-          "childNodes": []
+          "publicId": null,
+          "systemId": null
         },
         {
-          "nodeType": 1,
+          "type": "element",
+          "namespace": "http://www.w3.org/1999/xhtml",
           "prefix": null,
-          "localName": "html",
+          "name": "html",
           "attributes": [
             {
+              "type": "attribute",
+              "namespace": null,
               "prefix": null,
-              "localName": "lang",
+              "name": "lang",
               "value": "en"
             }
           ],
-          "shadowRoot": null,
-          "childNodes": [
+          "style": [],
+          "children": [
             {
-              "nodeType": 1,
+              "type": "element",
+              "namespace": "http://www.w3.org/1999/xhtml",
               "prefix": null,
-              "localName": "head",
+              "name": "head",
               "attributes": [],
-              "shadowRoot": null,
-              "childNodes": [
+              "style": [],
+              "children": [
                 {
-                  "nodeType": 3,
-                  "data": "\n  ",
-                  "childNodes": []
+                  "type": "text",
+                  "data": "\n  "
                 },
                 {
-                  "nodeType": 1,
+                  "type": "element",
+                  "namespace": "http://www.w3.org/1999/xhtml",
                   "prefix": null,
-                  "localName": "title",
+                  "name": "title",
                   "attributes": [],
-                  "shadowRoot": null,
-                  "childNodes": [
+                  "style": [],
+                  "children": [
                     {
-                      "nodeType": 3,
-                      "data": "Accessibility tools audit results - Example keyboard trap - GDS accessibility team",
-                      "childNodes": []
+                      "type": "text",
+                      "data": "Accessibility tools audit results - Example keyboard trap - GDS accessibility team"
                     }
-                  ]
+                  ],
+                  "shadow": null,
+                  "content": null
                 },
                 {
-                  "nodeType": 3,
-                  "data": "\n  ",
-                  "childNodes": []
+                  "type": "text",
+                  "data": "\n  "
                 },
                 {
-                  "nodeType": 1,
+                  "type": "element",
+                  "namespace": "http://www.w3.org/1999/xhtml",
                   "prefix": null,
-                  "localName": "script",
+                  "name": "script",
                   "attributes": [
                     {
+                      "type": "attribute",
+                      "namespace": null,
                       "prefix": null,
-                      "localName": "src",
+                      "name": "src",
                       "value": "../assets/javascript/jquery-1.12.0.min.js"
                     }
                   ],
-                  "shadowRoot": null,
-                  "childNodes": []
+                  "style": [],
+                  "children": [],
+                  "shadow": null,
+                  "content": null
                 },
                 {
-                  "nodeType": 3,
-                  "data": "\n  ",
-                  "childNodes": []
+                  "type": "text",
+                  "data": "\n  "
                 },
                 {
-                  "nodeType": 1,
+                  "type": "element",
+                  "namespace": "http://www.w3.org/1999/xhtml",
                   "prefix": null,
-                  "localName": "script",
+                  "name": "script",
                   "attributes": [
                     {
+                      "type": "attribute",
+                      "namespace": null,
                       "prefix": null,
-                      "localName": "src",
+                      "name": "src",
                       "value": "../assets/javascript/main.js"
                     }
                   ],
-                  "shadowRoot": null,
-                  "childNodes": []
+                  "style": [],
+                  "children": [],
+                  "shadow": null,
+                  "content": null
                 },
                 {
-                  "nodeType": 3,
-                  "data": "\n",
-                  "childNodes": []
+                  "type": "text",
+                  "data": "\n"
                 }
-              ]
+              ],
+              "shadow": null,
+              "content": null
             },
             {
-              "nodeType": 3,
-              "data": "\n",
-              "childNodes": []
+              "type": "text",
+              "data": "\n"
             },
             {
-              "nodeType": 1,
+              "type": "element",
+              "namespace": "http://www.w3.org/1999/xhtml",
               "prefix": null,
-              "localName": "body",
+              "name": "body",
               "attributes": [],
-              "shadowRoot": null,
-              "childNodes": [
+              "style": [],
+              "children": [
                 {
-                  "nodeType": 3,
-                  "data": "\n  ",
-                  "childNodes": []
+                  "type": "text",
+                  "data": "\n  "
                 },
                 {
-                  "nodeType": 1,
+                  "type": "element",
+                  "namespace": "http://www.w3.org/1999/xhtml",
                   "prefix": null,
-                  "localName": "h1",
+                  "name": "h1",
                   "attributes": [],
-                  "shadowRoot": null,
-                  "childNodes": [
+                  "style": [],
+                  "children": [
                     {
-                      "nodeType": 3,
-                      "data": "Example Keyboard Trap",
-                      "childNodes": []
+                      "type": "text",
+                      "data": "Example Keyboard Trap"
                     }
-                  ]
+                  ],
+                  "shadow": null,
+                  "content": null
                 },
                 {
-                  "nodeType": 3,
-                  "data": "\n\n  ",
-                  "childNodes": []
+                  "type": "text",
+                  "data": "\n\n  "
                 },
                 {
-                  "nodeType": 1,
+                  "type": "element",
+                  "namespace": "http://www.w3.org/1999/xhtml",
                   "prefix": null,
-                  "localName": "p",
+                  "name": "p",
                   "attributes": [],
-                  "shadowRoot": null,
-                  "childNodes": [
+                  "style": [],
+                  "children": [
                     {
-                      "nodeType": 3,
-                      "data": "\n    There are 2 links on this page. If you are using a keyboard you won't be able to get to the second link.\n    The keydown event has been used to open a new window.  When a person using a keyboard attempts to move focus away\n    from the first link, the keydown event will be triggered and the resulting function will be executed.\n  ",
-                      "childNodes": []
+                      "type": "text",
+                      "data": "\n    There are 2 links on this page. If you are using a keyboard you won't be able to get to the second link.\n    The keydown event has been used to open a new window.  When a person using a keyboard attempts to move focus away\n    from the first link, the keydown event will be triggered and the resulting function will be executed.\n  "
                     }
-                  ]
+                  ],
+                  "shadow": null,
+                  "content": null
                 },
                 {
-                  "nodeType": 3,
-                  "data": "\n\n  ",
-                  "childNodes": []
+                  "type": "text",
+                  "data": "\n\n  "
                 },
                 {
-                  "nodeType": 1,
+                  "type": "element",
+                  "namespace": "http://www.w3.org/1999/xhtml",
                   "prefix": null,
-                  "localName": "ul",
+                  "name": "ul",
                   "attributes": [],
-                  "shadowRoot": null,
-                  "childNodes": [
+                  "style": [],
+                  "children": [
                     {
-                      "nodeType": 3,
-                      "data": "\n    ",
-                      "childNodes": []
+                      "type": "text",
+                      "data": "\n    "
                     },
                     {
-                      "nodeType": 1,
+                      "type": "element",
+                      "namespace": "http://www.w3.org/1999/xhtml",
                       "prefix": null,
-                      "localName": "li",
+                      "name": "li",
                       "attributes": [],
-                      "shadowRoot": null,
-                      "childNodes": [
+                      "style": [],
+                      "children": [
                         {
-                          "nodeType": 1,
+                          "type": "element",
+                          "namespace": "http://www.w3.org/1999/xhtml",
                           "prefix": null,
-                          "localName": "a",
+                          "name": "a",
                           "attributes": [
                             {
+                              "type": "attribute",
+                              "namespace": null,
                               "prefix": null,
-                              "localName": "class",
+                              "name": "class",
                               "value": "trap"
                             },
                             {
+                              "type": "attribute",
+                              "namespace": null,
                               "prefix": null,
-                              "localName": "href",
+                              "name": "href",
                               "value": "https://en.wikipedia.org/wiki/Booby_trap"
                             }
                           ],
-                          "shadowRoot": null,
-                          "childNodes": [
+                          "style": [],
+                          "children": [
                             {
-                              "nodeType": 3,
-                              "data": "trap",
-                              "childNodes": []
+                              "type": "text",
+                              "data": "trap"
                             }
-                          ]
+                          ],
+                          "shadow": null,
+                          "content": null
                         }
-                      ]
+                      ],
+                      "shadow": null,
+                      "content": null
                     },
                     {
-                      "nodeType": 3,
-                      "data": "\n    ",
-                      "childNodes": []
+                      "type": "text",
+                      "data": "\n    "
                     },
                     {
-                      "nodeType": 1,
+                      "type": "element",
+                      "namespace": "http://www.w3.org/1999/xhtml",
                       "prefix": null,
-                      "localName": "li",
+                      "name": "li",
                       "attributes": [],
-                      "shadowRoot": null,
-                      "childNodes": [
+                      "style": [],
+                      "children": [
                         {
-                          "nodeType": 1,
+                          "type": "element",
+                          "namespace": "http://www.w3.org/1999/xhtml",
                           "prefix": null,
-                          "localName": "a",
+                          "name": "a",
                           "attributes": [
                             {
+                              "type": "attribute",
+                              "namespace": null,
                               "prefix": null,
-                              "localName": "href",
+                              "name": "href",
                               "value": "https://en.wikipedia.org/wiki/Honey"
                             }
                           ],
-                          "shadowRoot": null,
-                          "childNodes": [
+                          "style": [],
+                          "children": [
                             {
-                              "nodeType": 3,
-                              "data": "honey",
-                              "childNodes": []
+                              "type": "text",
+                              "data": "honey"
                             }
-                          ]
+                          ],
+                          "shadow": null,
+                          "content": null
                         }
-                      ]
+                      ],
+                      "shadow": null,
+                      "content": null
                     },
                     {
-                      "nodeType": 3,
-                      "data": "\n  ",
-                      "childNodes": []
+                      "type": "text",
+                      "data": "\n  "
                     }
-                  ]
+                  ],
+                  "shadow": null,
+                  "content": null
                 },
                 {
-                  "nodeType": 3,
-                  "data": "\n\n\n\n",
-                  "childNodes": []
+                  "type": "text",
+                  "data": "\n\n\n\n"
                 }
-              ]
+              ],
+              "shadow": null,
+              "content": null
             }
-          ]
+          ],
+          "shadow": null,
+          "content": null
         }
       ],
-      "compatMode": "CSS1Compat",
-      "styleSheets": []
+      "style": []
     },
     "device": {
       "type": "screen",
@@ -270,7 +304,8 @@
         "orientation": "landscape"
       },
       "display": {
-        "resolution": 1
+        "resolution": 1,
+        "scan": "progressive"
       }
     }
   }

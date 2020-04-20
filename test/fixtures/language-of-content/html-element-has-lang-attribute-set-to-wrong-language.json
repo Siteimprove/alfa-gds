@@ -2,406 +2,438 @@
   "id": "html-element-has-lang-attribute-set-to-wrong-language",
   "category": "Language of content",
   "title": "html element has lang attribute set to wrong language",
-  "aspects": {
+  "page": {
     "request": {
       "method": "GET",
-      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/7cdb4f577afae73eaaf8291ed2901e7b/html-element-has-lang-attribute-set-to-wrong-language.html",
-      "headers": {}
+      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/b92ccedb95798dc032c989a4fa5cfe93/html-element-has-lang-attribute-set-to-wrong-language.html",
+      "headers": [],
+      "body": ""
     },
     "response": {
+      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/b92ccedb95798dc032c989a4fa5cfe93/html-element-has-lang-attribute-set-to-wrong-language.html",
       "status": 0,
-      "headers": {},
+      "headers": [],
       "body": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n  <title>Insert title here</title>\n</head>\n<body>\n\n  <h2>Language of content</h2>\n  <h3>html element has lang attribute set to wrong language</h3>\n  <div class=\"example\">\n    <p>This page has a lang attribute set to the wrong language</p>\n  </div>\n\n  <h2>Page Title</h2>\n  <h3>Missing page title</h3>\n  <div class=\"example\">\n    <p>This page has no title element</p>\n  </div>\n\n  <h2>Headings</h2>\n  <h3>Missing H1</h3>\n  <div class=\"example\">\n    <p>This page has no h1</p>\n  </div>\n\n  <h3>Implicit heading</h3>\n  <div class=\"example\">\n    <p>This page has a div which is being styled to look like an H1</p>\n  </div>\n</body>\n</html>\n"
     },
     "document": {
-      "nodeType": 9,
-      "childNodes": [
+      "type": "document",
+      "children": [
         {
-          "nodeType": 10,
+          "type": "type",
           "name": "html",
-          "publicId": "",
-          "systemId": "",
-          "childNodes": []
+          "publicId": null,
+          "systemId": null
         },
         {
-          "nodeType": 1,
+          "type": "element",
+          "namespace": "http://www.w3.org/1999/xhtml",
           "prefix": null,
-          "localName": "html",
+          "name": "html",
           "attributes": [
             {
+              "type": "attribute",
+              "namespace": null,
               "prefix": null,
-              "localName": "lang",
+              "name": "lang",
               "value": "fr"
             }
           ],
-          "shadowRoot": null,
-          "childNodes": [
+          "style": [],
+          "children": [
             {
-              "nodeType": 1,
+              "type": "element",
+              "namespace": "http://www.w3.org/1999/xhtml",
               "prefix": null,
-              "localName": "head",
+              "name": "head",
               "attributes": [],
-              "shadowRoot": null,
-              "childNodes": [
+              "style": [],
+              "children": [
                 {
-                  "nodeType": 3,
-                  "data": "\n  ",
-                  "childNodes": []
+                  "type": "text",
+                  "data": "\n  "
                 },
                 {
-                  "nodeType": 1,
+                  "type": "element",
+                  "namespace": "http://www.w3.org/1999/xhtml",
                   "prefix": null,
-                  "localName": "title",
+                  "name": "title",
                   "attributes": [],
-                  "shadowRoot": null,
-                  "childNodes": [
+                  "style": [],
+                  "children": [
                     {
-                      "nodeType": 3,
-                      "data": "Insert title here",
-                      "childNodes": []
+                      "type": "text",
+                      "data": "Insert title here"
                     }
-                  ]
+                  ],
+                  "shadow": null,
+                  "content": null
                 },
                 {
-                  "nodeType": 3,
-                  "data": "\n",
-                  "childNodes": []
+                  "type": "text",
+                  "data": "\n"
                 }
-              ]
+              ],
+              "shadow": null,
+              "content": null
             },
             {
-              "nodeType": 3,
-              "data": "\n",
-              "childNodes": []
+              "type": "text",
+              "data": "\n"
             },
             {
-              "nodeType": 1,
+              "type": "element",
+              "namespace": "http://www.w3.org/1999/xhtml",
               "prefix": null,
-              "localName": "body",
+              "name": "body",
               "attributes": [],
-              "shadowRoot": null,
-              "childNodes": [
+              "style": [],
+              "children": [
                 {
-                  "nodeType": 3,
-                  "data": "\n\n  ",
-                  "childNodes": []
+                  "type": "text",
+                  "data": "\n\n  "
                 },
                 {
-                  "nodeType": 1,
+                  "type": "element",
+                  "namespace": "http://www.w3.org/1999/xhtml",
                   "prefix": null,
-                  "localName": "h2",
+                  "name": "h2",
                   "attributes": [],
-                  "shadowRoot": null,
-                  "childNodes": [
+                  "style": [],
+                  "children": [
                     {
-                      "nodeType": 3,
-                      "data": "Language of content",
-                      "childNodes": []
+                      "type": "text",
+                      "data": "Language of content"
                     }
-                  ]
+                  ],
+                  "shadow": null,
+                  "content": null
                 },
                 {
-                  "nodeType": 3,
-                  "data": "\n  ",
-                  "childNodes": []
+                  "type": "text",
+                  "data": "\n  "
                 },
                 {
-                  "nodeType": 1,
+                  "type": "element",
+                  "namespace": "http://www.w3.org/1999/xhtml",
                   "prefix": null,
-                  "localName": "h3",
+                  "name": "h3",
                   "attributes": [],
-                  "shadowRoot": null,
-                  "childNodes": [
+                  "style": [],
+                  "children": [
                     {
-                      "nodeType": 3,
-                      "data": "html element has lang attribute set to wrong language",
-                      "childNodes": []
+                      "type": "text",
+                      "data": "html element has lang attribute set to wrong language"
                     }
-                  ]
+                  ],
+                  "shadow": null,
+                  "content": null
                 },
                 {
-                  "nodeType": 3,
-                  "data": "\n  ",
-                  "childNodes": []
+                  "type": "text",
+                  "data": "\n  "
                 },
                 {
-                  "nodeType": 1,
+                  "type": "element",
+                  "namespace": "http://www.w3.org/1999/xhtml",
                   "prefix": null,
-                  "localName": "div",
+                  "name": "div",
                   "attributes": [
                     {
+                      "type": "attribute",
+                      "namespace": null,
                       "prefix": null,
-                      "localName": "class",
+                      "name": "class",
                       "value": "example"
                     }
                   ],
-                  "shadowRoot": null,
-                  "childNodes": [
+                  "style": [],
+                  "children": [
                     {
-                      "nodeType": 3,
-                      "data": "\n    ",
-                      "childNodes": []
+                      "type": "text",
+                      "data": "\n    "
                     },
                     {
-                      "nodeType": 1,
+                      "type": "element",
+                      "namespace": "http://www.w3.org/1999/xhtml",
                       "prefix": null,
-                      "localName": "p",
+                      "name": "p",
                       "attributes": [],
-                      "shadowRoot": null,
-                      "childNodes": [
+                      "style": [],
+                      "children": [
                         {
-                          "nodeType": 3,
-                          "data": "This page has a lang attribute set to the wrong language",
-                          "childNodes": []
+                          "type": "text",
+                          "data": "This page has a lang attribute set to the wrong language"
                         }
-                      ]
+                      ],
+                      "shadow": null,
+                      "content": null
                     },
                     {
-                      "nodeType": 3,
-                      "data": "\n  ",
-                      "childNodes": []
+                      "type": "text",
+                      "data": "\n  "
                     }
-                  ]
+                  ],
+                  "shadow": null,
+                  "content": null
                 },
                 {
-                  "nodeType": 3,
-                  "data": "\n\n  ",
-                  "childNodes": []
+                  "type": "text",
+                  "data": "\n\n  "
                 },
                 {
-                  "nodeType": 1,
+                  "type": "element",
+                  "namespace": "http://www.w3.org/1999/xhtml",
                   "prefix": null,
-                  "localName": "h2",
+                  "name": "h2",
                   "attributes": [],
-                  "shadowRoot": null,
-                  "childNodes": [
+                  "style": [],
+                  "children": [
                     {
-                      "nodeType": 3,
-                      "data": "Page Title",
-                      "childNodes": []
+                      "type": "text",
+                      "data": "Page Title"
                     }
-                  ]
+                  ],
+                  "shadow": null,
+                  "content": null
                 },
                 {
-                  "nodeType": 3,
-                  "data": "\n  ",
-                  "childNodes": []
+                  "type": "text",
+                  "data": "\n  "
                 },
                 {
-                  "nodeType": 1,
+                  "type": "element",
+                  "namespace": "http://www.w3.org/1999/xhtml",
                   "prefix": null,
-                  "localName": "h3",
+                  "name": "h3",
                   "attributes": [],
-                  "shadowRoot": null,
-                  "childNodes": [
+                  "style": [],
+                  "children": [
                     {
-                      "nodeType": 3,
-                      "data": "Missing page title",
-                      "childNodes": []
+                      "type": "text",
+                      "data": "Missing page title"
                     }
-                  ]
+                  ],
+                  "shadow": null,
+                  "content": null
                 },
                 {
-                  "nodeType": 3,
-                  "data": "\n  ",
-                  "childNodes": []
+                  "type": "text",
+                  "data": "\n  "
                 },
                 {
-                  "nodeType": 1,
+                  "type": "element",
+                  "namespace": "http://www.w3.org/1999/xhtml",
                   "prefix": null,
-                  "localName": "div",
+                  "name": "div",
                   "attributes": [
                     {
+                      "type": "attribute",
+                      "namespace": null,
                       "prefix": null,
-                      "localName": "class",
+                      "name": "class",
                       "value": "example"
                     }
                   ],
-                  "shadowRoot": null,
-                  "childNodes": [
+                  "style": [],
+                  "children": [
                     {
-                      "nodeType": 3,
-                      "data": "\n    ",
-                      "childNodes": []
+                      "type": "text",
+                      "data": "\n    "
                     },
                     {
-                      "nodeType": 1,
+                      "type": "element",
+                      "namespace": "http://www.w3.org/1999/xhtml",
                       "prefix": null,
-                      "localName": "p",
+                      "name": "p",
                       "attributes": [],
-                      "shadowRoot": null,
-                      "childNodes": [
+                      "style": [],
+                      "children": [
                         {
-                          "nodeType": 3,
-                          "data": "This page has no title element",
-                          "childNodes": []
+                          "type": "text",
+                          "data": "This page has no title element"
                         }
-                      ]
+                      ],
+                      "shadow": null,
+                      "content": null
                     },
                     {
-                      "nodeType": 3,
-                      "data": "\n  ",
-                      "childNodes": []
+                      "type": "text",
+                      "data": "\n  "
                     }
-                  ]
+                  ],
+                  "shadow": null,
+                  "content": null
                 },
                 {
-                  "nodeType": 3,
-                  "data": "\n\n  ",
-                  "childNodes": []
+                  "type": "text",
+                  "data": "\n\n  "
                 },
                 {
-                  "nodeType": 1,
+                  "type": "element",
+                  "namespace": "http://www.w3.org/1999/xhtml",
                   "prefix": null,
-                  "localName": "h2",
+                  "name": "h2",
                   "attributes": [],
-                  "shadowRoot": null,
-                  "childNodes": [
+                  "style": [],
+                  "children": [
                     {
-                      "nodeType": 3,
-                      "data": "Headings",
-                      "childNodes": []
+                      "type": "text",
+                      "data": "Headings"
                     }
-                  ]
+                  ],
+                  "shadow": null,
+                  "content": null
                 },
                 {
-                  "nodeType": 3,
-                  "data": "\n  ",
-                  "childNodes": []
+                  "type": "text",
+                  "data": "\n  "
                 },
                 {
-                  "nodeType": 1,
+                  "type": "element",
+                  "namespace": "http://www.w3.org/1999/xhtml",
                   "prefix": null,
-                  "localName": "h3",
+                  "name": "h3",
                   "attributes": [],
-                  "shadowRoot": null,
-                  "childNodes": [
+                  "style": [],
+                  "children": [
                     {
-                      "nodeType": 3,
-                      "data": "Missing H1",
-                      "childNodes": []
+                      "type": "text",
+                      "data": "Missing H1"
                     }
-                  ]
+                  ],
+                  "shadow": null,
+                  "content": null
                 },
                 {
-                  "nodeType": 3,
-                  "data": "\n  ",
-                  "childNodes": []
+                  "type": "text",
+                  "data": "\n  "
                 },
                 {
-                  "nodeType": 1,
+                  "type": "element",
+                  "namespace": "http://www.w3.org/1999/xhtml",
                   "prefix": null,
-                  "localName": "div",
+                  "name": "div",
                   "attributes": [
                     {
+                      "type": "attribute",
+                      "namespace": null,
                       "prefix": null,
-                      "localName": "class",
+                      "name": "class",
                       "value": "example"
                     }
                   ],
-                  "shadowRoot": null,
-                  "childNodes": [
+                  "style": [],
+                  "children": [
                     {
-                      "nodeType": 3,
-                      "data": "\n    ",
-                      "childNodes": []
+                      "type": "text",
+                      "data": "\n    "
                     },
                     {
-                      "nodeType": 1,
+                      "type": "element",
+                      "namespace": "http://www.w3.org/1999/xhtml",
                       "prefix": null,
-                      "localName": "p",
+                      "name": "p",
                       "attributes": [],
-                      "shadowRoot": null,
-                      "childNodes": [
+                      "style": [],
+                      "children": [
                         {
-                          "nodeType": 3,
-                          "data": "This page has no h1",
-                          "childNodes": []
+                          "type": "text",
+                          "data": "This page has no h1"
                         }
-                      ]
+                      ],
+                      "shadow": null,
+                      "content": null
                     },
                     {
-                      "nodeType": 3,
-                      "data": "\n  ",
-                      "childNodes": []
+                      "type": "text",
+                      "data": "\n  "
                     }
-                  ]
+                  ],
+                  "shadow": null,
+                  "content": null
                 },
                 {
-                  "nodeType": 3,
-                  "data": "\n\n  ",
-                  "childNodes": []
+                  "type": "text",
+                  "data": "\n\n  "
                 },
                 {
-                  "nodeType": 1,
+                  "type": "element",
+                  "namespace": "http://www.w3.org/1999/xhtml",
                   "prefix": null,
-                  "localName": "h3",
+                  "name": "h3",
                   "attributes": [],
-                  "shadowRoot": null,
-                  "childNodes": [
+                  "style": [],
+                  "children": [
                     {
-                      "nodeType": 3,
-                      "data": "Implicit heading",
-                      "childNodes": []
+                      "type": "text",
+                      "data": "Implicit heading"
                     }
-                  ]
+                  ],
+                  "shadow": null,
+                  "content": null
                 },
                 {
-                  "nodeType": 3,
-                  "data": "\n  ",
-                  "childNodes": []
+                  "type": "text",
+                  "data": "\n  "
                 },
                 {
-                  "nodeType": 1,
+                  "type": "element",
+                  "namespace": "http://www.w3.org/1999/xhtml",
                   "prefix": null,
-                  "localName": "div",
+                  "name": "div",
                   "attributes": [
                     {
+                      "type": "attribute",
+                      "namespace": null,
                       "prefix": null,
-                      "localName": "class",
+                      "name": "class",
                       "value": "example"
                     }
                   ],
-                  "shadowRoot": null,
-                  "childNodes": [
+                  "style": [],
+                  "children": [
                     {
-                      "nodeType": 3,
-                      "data": "\n    ",
-                      "childNodes": []
+                      "type": "text",
+                      "data": "\n    "
                     },
                     {
-                      "nodeType": 1,
+                      "type": "element",
+                      "namespace": "http://www.w3.org/1999/xhtml",
                       "prefix": null,
-                      "localName": "p",
+                      "name": "p",
                       "attributes": [],
-                      "shadowRoot": null,
-                      "childNodes": [
+                      "style": [],
+                      "children": [
                         {
-                          "nodeType": 3,
-                          "data": "This page has a div which is being styled to look like an H1",
-                          "childNodes": []
+                          "type": "text",
+                          "data": "This page has a div which is being styled to look like an H1"
                         }
-                      ]
+                      ],
+                      "shadow": null,
+                      "content": null
                     },
                     {
-                      "nodeType": 3,
-                      "data": "\n  ",
-                      "childNodes": []
+                      "type": "text",
+                      "data": "\n  "
                     }
-                  ]
+                  ],
+                  "shadow": null,
+                  "content": null
                 },
                 {
-                  "nodeType": 3,
-                  "data": "\n\n\n",
-                  "childNodes": []
+                  "type": "text",
+                  "data": "\n\n\n"
                 }
-              ]
+              ],
+              "shadow": null,
+              "content": null
             }
-          ]
+          ],
+          "shadow": null,
+          "content": null
         }
       ],
-      "compatMode": "CSS1Compat",
-      "styleSheets": []
+      "style": []
     },
     "device": {
       "type": "screen",
@@ -411,7 +443,8 @@
         "orientation": "landscape"
       },
       "display": {
-        "resolution": 1
+        "resolution": 1,
+        "scan": "progressive"
       }
     }
   }

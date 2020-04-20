@@ -3,7 +3,7 @@ const fs = require("fs");
 const makeDir = require("make-dir");
 const temp = require("tempy");
 
-const { Scraper } = require("@siteimprove/alfa-scrape");
+const { Scraper } = require("@siteimprove/alfa-scraper");
 
 const tests = require("../vendor/accessibility-tool-audit/tests.json");
 
@@ -14,7 +14,7 @@ const out = path.join("test", "fixtures");
 fetch(out);
 
 async function fetch(out) {
-  const scraper = new Scraper();
+  const scraper = await Scraper.of();
 
   for (const category of keys(tests)) {
     const directory = path.join(out, normalize(category));
@@ -38,29 +38,34 @@ async function fetch(out) {
       let content;
 
       if (example === null) {
-        content = await template(test.example, title)
+	content = await template(test.example, title);
       } else {
         content = fs.readFileSync(
           path.resolve(
             __dirname,
-            path.join("../vendor/accessibility-tool-audit/example-pages", example[1])
+	    path.join(
+	      "../vendor/accessibility-tool-audit/example-pages",
+	      example[1]
+	    )
           )
         );
       }
 
       fs.writeFileSync(url, content);
 
-      const aspects = await scraper.scrape(`file://${url}`);
+      const page = await scraper
+	.scrape(`file://${url}`)
+	.then((page) => page.toJSON());
 
       const fixture = JSON.stringify(
         {
           id,
           category,
           title,
-          aspects
+	  page,
         },
         null,
-        "  "
+	2
       );
 
       fs.writeFileSync(path.join(directory, filename), fixture + "\n");
@@ -85,7 +90,7 @@ function normalize(input) {
     .replace(/\//g, " ")
     .replace(/:/g, "-")
     .replace(/\s+/g, "-")
-    .replace(/-+/g, "-")
+    .replace(/-+/g, "-");
 }
 
 /**
