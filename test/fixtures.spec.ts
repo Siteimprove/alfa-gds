@@ -96,3 +96,12 @@ test(
   "table-with-column-headers-and-double-row-headers"
 );
 test(fixture, Rules.get("R46"), "tables", "table-has-an-empty-table-header");
+
+test(fixture, Rules.get("R61"), "headings", "missing-h1");
+test(
+  fixture,
+  Rules.get("R53"),
+  "headings",
+  "headings-not-structured-in-a-hierarchical-manner"
+);
+test(fixture, Rules.get("R64"), "headings", "empty-heading");
