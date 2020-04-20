@@ -38,15 +38,15 @@ async function fetch(out) {
       let content;
 
       if (example === null) {
-	content = await template(test.example, title);
+        content = await template(test.example, title);
       } else {
         content = fs.readFileSync(
           path.resolve(
             __dirname,
-	    path.join(
-	      "../vendor/accessibility-tool-audit/example-pages",
-	      example[1]
-	    )
+            path.join(
+              "../vendor/accessibility-tool-audit/example-pages",
+              example[1]
+            )
           )
         );
       }
@@ -54,18 +54,18 @@ async function fetch(out) {
       fs.writeFileSync(url, content);
 
       const page = await scraper
-	.scrape(`file://${url}`)
-	.then((page) => page.toJSON());
+        .scrape(`file://${url}`)
+        .then((page) => page.toJSON());
 
       const fixture = JSON.stringify(
         {
           id,
           category,
           title,
-	  page,
+          page,
         },
         null,
-	2
+        2
       );
 
       fs.writeFileSync(path.join(directory, filename), fixture + "\n");
