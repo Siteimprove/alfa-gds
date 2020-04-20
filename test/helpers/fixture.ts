@@ -54,8 +54,6 @@ export async function fixture(
         })
     );
 
-  console.log(outcome);
-
   t.assert(Outcome.isFailed(outcome) || Outcome.isCantTell(outcome), test.id);
 
   if (Outcome.isFailed(outcome) || Outcome.isCantTell(outcome)) {
