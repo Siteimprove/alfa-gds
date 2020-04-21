@@ -58,7 +58,7 @@ export async function fixture(
 
   if (Outcome.isFailed(outcome) || Outcome.isCantTell(outcome)) {
     t.context.found.push(outcome);
-    t.log("Target", `${outcome.target}`);
+    t.log(`${outcome.target}`);
   }
 }
 
