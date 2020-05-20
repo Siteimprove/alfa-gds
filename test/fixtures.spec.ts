@@ -14,6 +14,48 @@ test.before("Initialize context", (t) => {
 
 test.after("Summary", summary);
 
+// Colour and Contrast
+// -----------------------------------------------------------------------------
+
+test(
+  fixture,
+  Rules.get("R69"),
+  "colour-and-contrast",
+  "small-text-does-not-have-a-contrast-ratio-of-at-least-451-so-does-not-meet-aa"
+);
+
+test(
+  fixture,
+  Rules.get("R69"),
+  "colour-and-contrast",
+  "large-text-does-not-have-a-contrast-ratio-of-at-least-31-so-does-not-meet-aa"
+);
+
+test(
+  fixture,
+  Rules.get("R69"),
+  "colour-and-contrast",
+  "small-text-does-not-have-a-contrast-ratio-of-at-least-71-so-does-not-meet-aaa"
+);
+
+test(
+  fixture,
+  Rules.get("R69"),
+  "colour-and-contrast",
+  "large-text-does-not-have-a-contrast-ratio-of-at-least-451-so-does-not-meet-aaa"
+);
+
+// Typography
+// -----------------------------------------------------------------------------
+
+test(fixture, Rules.get("R73"), "typography", "inadequate-line-height-used");
+
+test(fixture, Rules.get("R72"), "typography", "all-caps-text-found");
+
+test(fixture, Rules.get("R75"), "typography", "very-small-text-found");
+
+test(fixture, Rules.get("R71"), "typography", "justified-text-found");
+
 // Language of content
 // -----------------------------------------------------------------------------
 
