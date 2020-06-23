@@ -5,12 +5,12 @@
   "page": {
     "request": {
       "method": "GET",
-      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/ba962a18b4f22ac710f0b4230bf34754/html-element-has-an-empty-lang-attribute.html",
+      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/7f4ba4320f9b9abd51dedca39ded69ef/html-element-has-an-empty-lang-attribute.html",
       "headers": [],
       "body": ""
     },
     "response": {
-      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/ba962a18b4f22ac710f0b4230bf34754/html-element-has-an-empty-lang-attribute.html",
+      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/7f4ba4320f9b9abd51dedca39ded69ef/html-element-has-an-empty-lang-attribute.html",
       "status": 0,
       "headers": [],
       "body": "<!DOCTYPE html>\n<html lang=\"\">\n<head>\n  <title></title>\n</head>\n<body>\n  <h1></h1>\n  <div class=\"h1\" style=\"font-size: 2em; font-weight: bold; margin: 0.67em 0;\">Accessibility Fails: Empty elements and attributes</div>\n\n  <h2>Language of content</h2>\n  <h3>html element has an empty lang attribute</h3>\n  <div class=\"example\">\n    <p>This page has an empty lang attribute on the html element</p>\n  </div>\n\n  <h2>Page Title</h2>\n  <h3>Empty page title</h3>\n  <div class=\"example\">\n    This page has an empty page title\n  </div>\n\n  <h2>Headings</h2>\n  <h3>Empty H1</h3>\n  <div class=\"example\">\n    <p>This page has an empty h1</p>\n  </div>\n\n  <h3>Implicit heading</h3>\n  <div class=\"example\">\n    <p>This page has a div which is being styled to look like an H1</p>\n  </div>\n</body>\n</html>\n"
@@ -501,7 +501,11 @@
       "display": {
         "resolution": 1,
         "scan": "progressive"
-      }
+      },
+      "scripting": {
+        "enabled": true
+      },
+      "preferences": []
     }
   }
 }

@@ -5,12 +5,12 @@
   "page": {
     "request": {
       "method": "GET",
-      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/c21fdd89dcde6b2dccfc9d98300c8c38/html-element-is-missing-a-lang-attribute.html",
+      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/feac09f3354a8b089ea70f83d98f8735/html-element-is-missing-a-lang-attribute.html",
       "headers": [],
       "body": ""
     },
     "response": {
-      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/c21fdd89dcde6b2dccfc9d98300c8c38/html-element-is-missing-a-lang-attribute.html",
+      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/feac09f3354a8b089ea70f83d98f8735/html-element-is-missing-a-lang-attribute.html",
       "status": 0,
       "headers": [],
       "body": "<!DOCTYPE html>\n<html>\n<head>\n</head>\n<body>\n  <div class=\"h1\" style=\"font-size: 2em; font-weight: bold; margin: 0.67em 0;\">Accessibility Fails: Missing elements and attributes</div>\n\n  <h2>Language of content</h2>\n  <h3>html element is missing a lang attribute</h3>\n  <div class=\"example\">\n    <p>This page has no lang attribute on the html element</p>\n  </div>\n\n  <h2>Page Title</h2>\n  <h3>Missing page title</h3>\n  <div class=\"example\">\n    <p>This page has no title element</p>\n  </div>\n\n  <h2>Headings</h2>\n  <h3>Missing H1</h3>\n  <div class=\"example\">\n    <p>This page has no h1</p>\n  </div>\n\n  <h3>Implicit heading</h3>\n  <div class=\"example\">\n    <p>This page has a div which is being styled to look like an H1</p>\n  </div>\n</body>\n</html>\n"
@@ -483,7 +483,11 @@
       "display": {
         "resolution": 1,
         "scan": "progressive"
-      }
+      },
+      "scripting": {
+        "enabled": true
+      },
+      "preferences": []
     }
   }
 }

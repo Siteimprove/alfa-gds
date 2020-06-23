@@ -55,7 +55,7 @@ async function fetch(out) {
 
       const page = await scraper
         .scrape(`file://${url}`)
-        .then((page) => page.toJSON());
+        .then((page) => page.get().toJSON());
 
       const fixture = JSON.stringify(
         {

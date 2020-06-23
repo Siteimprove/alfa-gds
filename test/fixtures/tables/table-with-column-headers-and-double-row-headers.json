@@ -5,15 +5,15 @@
   "page": {
     "request": {
       "method": "GET",
-      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/9a725a9e62a7c6b2bd217aafec0bd351/table-with-column-headers-and-double-row-headers.html",
+      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/512b275f6199c697d8083acd836aad26/table-with-column-headers-and-double-row-headers.html",
       "headers": [],
       "body": ""
     },
     "response": {
-      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/9a725a9e62a7c6b2bd217aafec0bd351/table-with-column-headers-and-double-row-headers.html",
+      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/512b275f6199c697d8083acd836aad26/table-with-column-headers-and-double-row-headers.html",
       "status": 0,
       "headers": [],
-      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\" />\n  <title>Table with column headers and double row headers</title>\n  <script src=\"/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/c0b522b8969e5a55bff3bade68f056a7/javascript/jquery-1.12.0.min.js\"></script>\n  <script src=\"/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/e9dda3d732469cac60482bcba8c3aae9/javascript/main.js\"></script>\n  <link rel=\"stylesheet\" href=\"/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/db89afeec03ca00a9fe2685a12cf04d5/stylesheets/tests.css\">\n</head>\n<body>\n  <h1>Table with column headers and double row headers</h1>\n  <main><table>\n<caption>Road Traffic at Junctions</caption>\n<tr>\n<th>Road</th>\n<th>Junction</th>\n<th>Car</th>\n<th>Bus</th>\n</tr>\n<tr>\n<th>Regent Street</th>\n<th>Oxford Street</th>\n<td>307</td>\n<td>12</td>\n</tr>\n<tr>\n<th>Regent Street</th>\n<th>Bond Street</th>\n<td>1731</td>\n<td>58</td>\n</tr>\n<tr>\n<th>Southwark Street</th>\n<th>Union Street</th>\n<td>1975</td>\n<td>51</td>\n</tr>\n</table></main>\n</body>\n</html>"
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\" />\n  <title>Table with column headers and double row headers</title>\n  <script src=\"/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/160e1a16ea68891fe2ad9f53602d5052/javascript/jquery-1.12.0.min.js\"></script>\n  <script src=\"/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/bf8f4464b0ae4b7dc543a0701cd8aa20/javascript/main.js\"></script>\n  <link rel=\"stylesheet\" href=\"/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/6a62b550e319f615351a8b0a7b3b9229/stylesheets/tests.css\">\n</head>\n<body>\n  <h1>Table with column headers and double row headers</h1>\n  <main><table>\n<caption>Road Traffic at Junctions</caption>\n<tr>\n<th>Road</th>\n<th>Junction</th>\n<th>Car</th>\n<th>Bus</th>\n</tr>\n<tr>\n<th>Regent Street</th>\n<th>Oxford Street</th>\n<td>307</td>\n<td>12</td>\n</tr>\n<tr>\n<th>Regent Street</th>\n<th>Bond Street</th>\n<td>1731</td>\n<td>58</td>\n</tr>\n<tr>\n<th>Southwark Street</th>\n<th>Union Street</th>\n<td>1975</td>\n<td>51</td>\n</tr>\n</table></main>\n</body>\n</html>"
     },
     "document": {
       "type": "document",
@@ -106,7 +106,7 @@
                       "namespace": null,
                       "prefix": null,
                       "name": "src",
-                      "value": "/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/c0b522b8969e5a55bff3bade68f056a7/javascript/jquery-1.12.0.min.js"
+                      "value": "/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/160e1a16ea68891fe2ad9f53602d5052/javascript/jquery-1.12.0.min.js"
                     }
                   ],
                   "style": [],
@@ -129,7 +129,7 @@
                       "namespace": null,
                       "prefix": null,
                       "name": "src",
-                      "value": "/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/e9dda3d732469cac60482bcba8c3aae9/javascript/main.js"
+                      "value": "/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/bf8f4464b0ae4b7dc543a0701cd8aa20/javascript/main.js"
                     }
                   ],
                   "style": [],
@@ -159,7 +159,7 @@
                       "namespace": null,
                       "prefix": null,
                       "name": "href",
-                      "value": "/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/db89afeec03ca00a9fe2685a12cf04d5/stylesheets/tests.css"
+                      "value": "/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/6a62b550e319f615351a8b0a7b3b9229/stylesheets/tests.css"
                     }
                   ],
                   "style": [],
@@ -3653,7 +3653,8 @@
               ]
             }
           ],
-          "disabled": false
+          "disabled": false,
+          "condition": null
         }
       ]
     },
@@ -3667,7 +3668,11 @@
       "display": {
         "resolution": 1,
         "scan": "progressive"
-      }
+      },
+      "scripting": {
+        "enabled": true
+      },
+      "preferences": []
     }
   }
 }

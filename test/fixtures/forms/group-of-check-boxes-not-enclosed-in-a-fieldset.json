@@ -5,15 +5,15 @@
   "page": {
     "request": {
       "method": "GET",
-      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/c38f2421d426a3db48402991c10c103a/group-of-check-boxes-not-enclosed-in-a-fieldset.html",
+      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/996ef920254b1c761f3e28946144df7e/group-of-check-boxes-not-enclosed-in-a-fieldset.html",
       "headers": [],
       "body": ""
     },
     "response": {
-      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/c38f2421d426a3db48402991c10c103a/group-of-check-boxes-not-enclosed-in-a-fieldset.html",
+      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/996ef920254b1c761f3e28946144df7e/group-of-check-boxes-not-enclosed-in-a-fieldset.html",
       "status": 0,
       "headers": [],
-      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\" />\n  <title>Group of check boxes not enclosed in a fieldset</title>\n  <script src=\"/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/c0b522b8969e5a55bff3bade68f056a7/javascript/jquery-1.12.0.min.js\"></script>\n  <script src=\"/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/e9dda3d732469cac60482bcba8c3aae9/javascript/main.js\"></script>\n  <link rel=\"stylesheet\" href=\"/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/db89afeec03ca00a9fe2685a12cf04d5/stylesheets/tests.css\">\n</head>\n<body>\n  <h1>Group of check boxes not enclosed in a fieldset</h1>\n  <main><form><h4>Which types of waste do you transport regularly?</h4>\n<label class=\"block-label\" for=\"waste-type-1\">\n<input id=\"waste-type-1\" name=\"waste-types\" type=\"checkbox\" value=\"waste-animal\" />\n            Waste from animal carcasses\n        </label><br/>\n<label class=\"block-label\" for=\"waste-type-2\">\n<input id=\"waste-type-2\" name=\"waste-types\" type=\"checkbox\" value=\"waste-mines\" />\n            Waste from mines or quarries\n        </label><br/>\n<label class=\"block-label\" for=\"waste-type-3\">\n<input id=\"waste-type-3\" name=\"waste-types\" type=\"checkbox\" value=\"waste-farm-agricultural\" />\n            Farm or agricultural waste\n        </label></form></main>\n</body>\n</html>"
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\" />\n  <title>Group of check boxes not enclosed in a fieldset</title>\n  <script src=\"/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/160e1a16ea68891fe2ad9f53602d5052/javascript/jquery-1.12.0.min.js\"></script>\n  <script src=\"/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/bf8f4464b0ae4b7dc543a0701cd8aa20/javascript/main.js\"></script>\n  <link rel=\"stylesheet\" href=\"/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/6a62b550e319f615351a8b0a7b3b9229/stylesheets/tests.css\">\n</head>\n<body>\n  <h1>Group of check boxes not enclosed in a fieldset</h1>\n  <main><form><h4>Which types of waste do you transport regularly?</h4>\n<label class=\"block-label\" for=\"waste-type-1\">\n<input id=\"waste-type-1\" name=\"waste-types\" type=\"checkbox\" value=\"waste-animal\" />\n            Waste from animal carcasses\n        </label><br/>\n<label class=\"block-label\" for=\"waste-type-2\">\n<input id=\"waste-type-2\" name=\"waste-types\" type=\"checkbox\" value=\"waste-mines\" />\n            Waste from mines or quarries\n        </label><br/>\n<label class=\"block-label\" for=\"waste-type-3\">\n<input id=\"waste-type-3\" name=\"waste-types\" type=\"checkbox\" value=\"waste-farm-agricultural\" />\n            Farm or agricultural waste\n        </label></form></main>\n</body>\n</html>"
     },
     "document": {
       "type": "document",
@@ -106,7 +106,7 @@
                       "namespace": null,
                       "prefix": null,
                       "name": "src",
-                      "value": "/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/c0b522b8969e5a55bff3bade68f056a7/javascript/jquery-1.12.0.min.js"
+                      "value": "/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/160e1a16ea68891fe2ad9f53602d5052/javascript/jquery-1.12.0.min.js"
                     }
                   ],
                   "style": [],
@@ -129,7 +129,7 @@
                       "namespace": null,
                       "prefix": null,
                       "name": "src",
-                      "value": "/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/e9dda3d732469cac60482bcba8c3aae9/javascript/main.js"
+                      "value": "/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/bf8f4464b0ae4b7dc543a0701cd8aa20/javascript/main.js"
                     }
                   ],
                   "style": [],
@@ -159,7 +159,7 @@
                       "namespace": null,
                       "prefix": null,
                       "name": "href",
-                      "value": "/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/db89afeec03ca00a9fe2685a12cf04d5/stylesheets/tests.css"
+                      "value": "/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/6a62b550e319f615351a8b0a7b3b9229/stylesheets/tests.css"
                     }
                   ],
                   "style": [],
@@ -3492,7 +3492,8 @@
               ]
             }
           ],
-          "disabled": false
+          "disabled": false,
+          "condition": null
         }
       ]
     },
@@ -3506,7 +3507,11 @@
       "display": {
         "resolution": 1,
         "scan": "progressive"
-      }
+      },
+      "scripting": {
+        "enabled": true
+      },
+      "preferences": []
     }
   }
 }

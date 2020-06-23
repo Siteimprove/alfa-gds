@@ -5,15 +5,15 @@
   "page": {
     "request": {
       "method": "GET",
-      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/9d505fa681123242e38dc82024232421/headings-not-structured-in-a-hierarchical-manner.html",
+      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/3c37ab9626451685db5e4f72d61f7b38/headings-not-structured-in-a-hierarchical-manner.html",
       "headers": [],
       "body": ""
     },
     "response": {
-      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/9d505fa681123242e38dc82024232421/headings-not-structured-in-a-hierarchical-manner.html",
+      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/3c37ab9626451685db5e4f72d61f7b38/headings-not-structured-in-a-hierarchical-manner.html",
       "status": 0,
       "headers": [],
-      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\" />\n  <title>Headings not structured in a hierarchical manner</title>\n  <script src=\"/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/c0b522b8969e5a55bff3bade68f056a7/javascript/jquery-1.12.0.min.js\"></script>\n  <script src=\"/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/e9dda3d732469cac60482bcba8c3aae9/javascript/main.js\"></script>\n  <link rel=\"stylesheet\" href=\"/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/db89afeec03ca00a9fe2685a12cf04d5/stylesheets/tests.css\">\n</head>\n<body>\n  <h1>Headings not structured in a hierarchical manner</h1>\n  <main><h3>Heading 3</h3>\n<p>Pages should be structured in a hierarchical manner, generally with one 1st degree headings (h1) being the\n        most important (usually page titles or main content heading), then 2nd degree headings (h2 - usually major\n            section headings), down to 3rd degree headings (sub-sections of the h2), and so on. </p>\n<h5>Heading 5</h5>\n<p>Technically, lower degree headings should be contained within headings of the next highest degree\n            (i.e., one should not skip heading levels, such as from an h2 to an h4, going down the document).</p>\n<h4>Heading 4</h4>\n<p>This is an example where heading levels have been skipped and are not in a logical order, which makes the page\n            difficult to understand and navigate for people using assistive technologies such as screen reader.</p></main>\n</body>\n</html>"
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\" />\n  <title>Headings not structured in a hierarchical manner</title>\n  <script src=\"/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/160e1a16ea68891fe2ad9f53602d5052/javascript/jquery-1.12.0.min.js\"></script>\n  <script src=\"/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/bf8f4464b0ae4b7dc543a0701cd8aa20/javascript/main.js\"></script>\n  <link rel=\"stylesheet\" href=\"/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/6a62b550e319f615351a8b0a7b3b9229/stylesheets/tests.css\">\n</head>\n<body>\n  <h1>Headings not structured in a hierarchical manner</h1>\n  <main><h3>Heading 3</h3>\n<p>Pages should be structured in a hierarchical manner, generally with one 1st degree headings (h1) being the\n        most important (usually page titles or main content heading), then 2nd degree headings (h2 - usually major\n            section headings), down to 3rd degree headings (sub-sections of the h2), and so on. </p>\n<h5>Heading 5</h5>\n<p>Technically, lower degree headings should be contained within headings of the next highest degree\n            (i.e., one should not skip heading levels, such as from an h2 to an h4, going down the document).</p>\n<h4>Heading 4</h4>\n<p>This is an example where heading levels have been skipped and are not in a logical order, which makes the page\n            difficult to understand and navigate for people using assistive technologies such as screen reader.</p></main>\n</body>\n</html>"
     },
     "document": {
       "type": "document",
@@ -106,7 +106,7 @@
                       "namespace": null,
                       "prefix": null,
                       "name": "src",
-                      "value": "/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/c0b522b8969e5a55bff3bade68f056a7/javascript/jquery-1.12.0.min.js"
+                      "value": "/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/160e1a16ea68891fe2ad9f53602d5052/javascript/jquery-1.12.0.min.js"
                     }
                   ],
                   "style": [],
@@ -129,7 +129,7 @@
                       "namespace": null,
                       "prefix": null,
                       "name": "src",
-                      "value": "/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/e9dda3d732469cac60482bcba8c3aae9/javascript/main.js"
+                      "value": "/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/bf8f4464b0ae4b7dc543a0701cd8aa20/javascript/main.js"
                     }
                   ],
                   "style": [],
@@ -159,7 +159,7 @@
                       "namespace": null,
                       "prefix": null,
                       "name": "href",
-                      "value": "/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/db89afeec03ca00a9fe2685a12cf04d5/stylesheets/tests.css"
+                      "value": "/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/6a62b550e319f615351a8b0a7b3b9229/stylesheets/tests.css"
                     }
                   ],
                   "style": [],
@@ -3321,7 +3321,8 @@
               ]
             }
           ],
-          "disabled": false
+          "disabled": false,
+          "condition": null
         }
       ]
     },
@@ -3335,7 +3336,11 @@
       "display": {
         "resolution": 1,
         "scan": "progressive"
-      }
+      },
+      "scripting": {
+        "enabled": true
+      },
+      "preferences": []
     }
   }
 }

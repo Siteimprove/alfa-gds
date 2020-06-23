@@ -5,12 +5,12 @@
   "page": {
     "request": {
       "method": "GET",
-      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/088331cc84c5cd4d8468b213cd4199fb/inappropriate-page-title.html",
+      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/e17c58d3794e427de662bea26f264e7b/inappropriate-page-title.html",
       "headers": [],
       "body": ""
     },
     "response": {
-      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/088331cc84c5cd4d8468b213cd4199fb/inappropriate-page-title.html",
+      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/e17c58d3794e427de662bea26f264e7b/inappropriate-page-title.html",
       "status": 0,
       "headers": [],
       "body": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n  <title>Insert title here</title>\n</head>\n<body>\n\n  <h2>Language of content</h2>\n  <h3>html element has lang attribute set to wrong language</h3>\n  <div class=\"example\">\n    <p>This page has a lang attribute set to the wrong language</p>\n  </div>\n\n  <h2>Page Title</h2>\n  <h3>Missing page title</h3>\n  <div class=\"example\">\n    <p>This page has no title element</p>\n  </div>\n\n  <h2>Headings</h2>\n  <h3>Missing H1</h3>\n  <div class=\"example\">\n    <p>This page has no h1</p>\n  </div>\n\n  <h3>Implicit heading</h3>\n  <div class=\"example\">\n    <p>This page has a div which is being styled to look like an H1</p>\n  </div>\n</body>\n</html>\n"
@@ -445,7 +445,11 @@
       "display": {
         "resolution": 1,
         "scan": "progressive"
-      }
+      },
+      "scripting": {
+        "enabled": true
+      },
+      "preferences": []
     }
   }
 }

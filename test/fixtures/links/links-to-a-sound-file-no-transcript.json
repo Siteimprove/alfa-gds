@@ -5,15 +5,15 @@
   "page": {
     "request": {
       "method": "GET",
-      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/2acad2f5d2cfcb4851a69311ec84f170/links-to-a-sound-file-no-transcript.html",
+      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/eaa7563442bba1b773765f17c1f3d4bc/links-to-a-sound-file-no-transcript.html",
       "headers": [],
       "body": ""
     },
     "response": {
-      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/2acad2f5d2cfcb4851a69311ec84f170/links-to-a-sound-file-no-transcript.html",
+      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/eaa7563442bba1b773765f17c1f3d4bc/links-to-a-sound-file-no-transcript.html",
       "status": 0,
       "headers": [],
-      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\" />\n  <title>Links to a sound file, no transcript</title>\n  <script src=\"/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/c0b522b8969e5a55bff3bade68f056a7/javascript/jquery-1.12.0.min.js\"></script>\n  <script src=\"/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/e9dda3d732469cac60482bcba8c3aae9/javascript/main.js\"></script>\n  <link rel=\"stylesheet\" href=\"/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/db89afeec03ca00a9fe2685a12cf04d5/stylesheets/tests.css\">\n</head>\n<body>\n  <h1>Links to a sound file, no transcript</h1>\n  <main><a href=\"interview.mp3\">Listen to the interview</a></main>\n</body>\n</html>"
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\" />\n  <title>Links to a sound file, no transcript</title>\n  <script src=\"/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/160e1a16ea68891fe2ad9f53602d5052/javascript/jquery-1.12.0.min.js\"></script>\n  <script src=\"/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/bf8f4464b0ae4b7dc543a0701cd8aa20/javascript/main.js\"></script>\n  <link rel=\"stylesheet\" href=\"/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/6a62b550e319f615351a8b0a7b3b9229/stylesheets/tests.css\">\n</head>\n<body>\n  <h1>Links to a sound file, no transcript</h1>\n  <main><a href=\"interview.mp3\">Listen to the interview</a></main>\n</body>\n</html>"
     },
     "document": {
       "type": "document",
@@ -106,7 +106,7 @@
                       "namespace": null,
                       "prefix": null,
                       "name": "src",
-                      "value": "/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/c0b522b8969e5a55bff3bade68f056a7/javascript/jquery-1.12.0.min.js"
+                      "value": "/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/160e1a16ea68891fe2ad9f53602d5052/javascript/jquery-1.12.0.min.js"
                     }
                   ],
                   "style": [],
@@ -129,7 +129,7 @@
                       "namespace": null,
                       "prefix": null,
                       "name": "src",
-                      "value": "/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/e9dda3d732469cac60482bcba8c3aae9/javascript/main.js"
+                      "value": "/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/bf8f4464b0ae4b7dc543a0701cd8aa20/javascript/main.js"
                     }
                   ],
                   "style": [],
@@ -159,7 +159,7 @@
                       "namespace": null,
                       "prefix": null,
                       "name": "href",
-                      "value": "/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/db89afeec03ca00a9fe2685a12cf04d5/stylesheets/tests.css"
+                      "value": "/private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/6a62b550e319f615351a8b0a7b3b9229/stylesheets/tests.css"
                     }
                   ],
                   "style": [],
@@ -3229,7 +3229,8 @@
               ]
             }
           ],
-          "disabled": false
+          "disabled": false,
+          "condition": null
         }
       ]
     },
@@ -3243,7 +3244,11 @@
       "display": {
         "resolution": 1,
         "scan": "progressive"
-      }
+      },
+      "scripting": {
+        "enabled": true
+      },
+      "preferences": []
     }
   }
 }

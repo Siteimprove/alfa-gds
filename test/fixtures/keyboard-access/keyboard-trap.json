@@ -5,12 +5,12 @@
   "page": {
     "request": {
       "method": "GET",
-      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/ac5e22c52e9187324d056b6f78e55e22/keyboard-trap.html",
+      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/de81338478cad221d0d488a7440f007d/keyboard-trap.html",
       "headers": [],
       "body": ""
     },
     "response": {
-      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/ac5e22c52e9187324d056b6f78e55e22/keyboard-trap.html",
+      "url": "file:///private/var/folders/6m/tzlpg1fd7t36q4dnxp4gwtn80000gn/T/de81338478cad221d0d488a7440f007d/keyboard-trap.html",
       "status": 0,
       "headers": [],
       "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <title>Accessibility tools audit results - Example keyboard trap - GDS accessibility team</title>\n  <script src=\"../assets/javascript/jquery-1.12.0.min.js\"></script>\n  <script src=\"../assets/javascript/main.js\"></script>\n</head>\n<body>\n  <h1>Example Keyboard Trap</h1>\n\n  <p>\n    There are 2 links on this page. If you are using a keyboard you won't be able to get to the second link.\n    The keydown event has been used to open a new window.  When a person using a keyboard attempts to move focus away\n    from the first link, the keydown event will be triggered and the resulting function will be executed.\n  </p>\n\n  <ul>\n    <li><a class=\"trap\" href=\"https://en.wikipedia.org/wiki/Booby_trap\">trap</a></li>\n    <li><a href=\"https://en.wikipedia.org/wiki/Honey\">honey</a></li>\n  </ul>\n\n</body>\n</html>\n"
@@ -306,7 +306,11 @@
       "display": {
         "resolution": 1,
         "scan": "progressive"
-      }
+      },
+      "scripting": {
+        "enabled": true
+      },
+      "preferences": []
     }
   }
 }

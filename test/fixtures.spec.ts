@@ -52,6 +52,13 @@ test(fixture, Rules.get("R73"), "typography", "inadequate-line-height-used");
 
 test(fixture, Rules.get("R72"), "typography", "all-caps-text-found");
 
+test(
+  fixture,
+  Rules.get("R85"),
+  "typography",
+  "italics-used-on-long-sections-of-text"
+);
+
 test(fixture, Rules.get("R75"), "typography", "very-small-text-found");
 
 test(fixture, Rules.get("R71"), "typography", "justified-text-found");
