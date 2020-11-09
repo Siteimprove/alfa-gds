@@ -66,7 +66,8 @@ test(
   "large-text-does-not-have-a-contrast-ratio-of-at-least-451-so-does-not-meet-aaa"
 );
 
-// Focus not visible => R65 not activated in Alfa yet
+// Focus not visible => R65-ish
+// The button actually has visible focus with a border going from 2px to 1px, thus passes R65.
 
 // Typography
 // -----------------------------------------------------------------------------
@@ -418,7 +419,8 @@ test(fixture, Rules.get("R8"), "forms", "missing-labels-in-checkboxes");
 // Tabindex greater than 0 => not planned
 // not a WCAG failure per se
 
-// Keyboard focus is not indicated visually => R65
+// Keyboard focus is not indicated visually => R65-ish
+// R65 needs 2 focusable on page, this test case only has one and is inapplicable…
 
 // Keyboard focus assigned to a non focusable element using tabindex=0 => not planned
 // not a WCAG failure per se
