@@ -375,7 +375,7 @@ test(
 );
 
 // Group of check boxes not enclosed in a fieldset => R80 not written yet
-// // @see https://siteimprove-wgs.atlassian.net/browse/WT-80
+// @see https://siteimprove-wgs.atlassian.net/browse/WT-80
 
 test(fixture, Rules.get("R8"), "forms", "empty-label-found");
 
@@ -398,7 +398,7 @@ test(fixture, Rules.get("R8"), "forms", "missing-labels-in-checkboxes");
 // test(fixture, Rules.get("R8"), "forms", "placeholder-no-label");
 
 // Errors are not identified => R82 always ask question
-// // @see https://siteimprove-wgs.atlassian.net/browse/WT-154
+// @see https://siteimprove-wgs.atlassian.net/browse/WT-154
 
 // Form control that changes context without warning => manual?
 
