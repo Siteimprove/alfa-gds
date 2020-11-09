@@ -27,8 +27,7 @@ export async function fixture(
 
   const page = Page.from(test.page);
 
-  const outcome = await Audit.of(page)
-    .add(rule.get())
+  const outcome = await Audit.of(page, [rule.get()])
     .evaluate()
     .map((outcomes) =>
       [...outcomes]
