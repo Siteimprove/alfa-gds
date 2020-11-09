@@ -163,16 +163,18 @@ test(
 // Buttons
 // -----------------------------------------------------------------------------
 
-test(fixture, Rules.get("R28"), "buttons", "image-button-has-no-alt-attribute");
+// Alfa consider the default name of "Submit button" as a valid accessible name for image buttons
+// test(fixture, Rules.get("R28"), "buttons", "image-button-has-no-alt-attribute");
 
 test(fixture, Rules.get("R12"), "buttons", "empty-button");
 
-test(
-  fixture,
-  Rules.get("R28"),
-  "buttons",
-  "empty-alt-attribute-on-image-button"
-);
+// Alfa consider the default name of "Submit button" as a valid accessible name for image buttons
+// test(
+//   fixture,
+//   Rules.get("R28"),
+//   "buttons",
+//   "empty-alt-attribute-on-image-button"
+// );
 
 // Forms
 // -----------------------------------------------------------------------------
@@ -197,7 +199,8 @@ test(fixture, Rules.get("R8"), "forms", "empty-label-found");
 
 test(fixture, Rules.get("R8"), "forms", "missing-labels-in-checkboxes");
 
-test(fixture, Rules.get("R8"), "forms", "placeholder-no-label");
+// Alfa considers the placeholder attribute as a valid way to give an accessible name
+// test(fixture, Rules.get("R8"), "forms", "placeholder-no-label");
 
 // Frames
 // -----------------------------------------------------------------------------
