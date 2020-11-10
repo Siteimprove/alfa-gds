@@ -27,8 +27,7 @@ export async function fixture(
 
   const page = Page.from(test.page);
 
-  const outcome = await Audit.of(page)
-    .add(rule.get())
+  const outcome = await Audit.of(page, [rule.get()])
     .evaluate()
     .map((outcomes) =>
       [...outcomes]
@@ -54,7 +53,12 @@ export async function fixture(
         })
     );
 
-  t.assert(Outcome.isFailed(outcome) || Outcome.isCantTell(outcome), test.id);
+  if (Outcome.isFailed(outcome) || Outcome.isCantTell(outcome)) {
+    t.pass(test.id);
+  } else {
+    t.fail(test.id);
+    t.log(rule.get().uri, "\n", test.page.response.body);
+  }
 
   if (Outcome.isFailed(outcome) || Outcome.isCantTell(outcome)) {
     t.context.found.push(outcome);
