@@ -15,11 +15,28 @@ export async function fixture(
   fixture: string,
   options: fixture.Options = {}
 ): Promise<void> {
-  t.plan(1);
-
   const directory = path.join("test", "fixtures", category);
 
   const filename = fixture + ".json";
+
+  t.context.counts.total++;
+
+  if (options.requirement === false) {
+    t.context.counts.invalid++;
+    t.pass();
+    return;
+  }
+
+  if (options.legacy) {
+    t.context.counts.legacy[options.legacy]++;
+  }
+
+  if (rule.isNone()) {
+    t.pass();
+    return;
+  }
+
+  t.plan(1);
 
   const test = JSON.parse(
     fs.readFileSync(path.join(directory, filename), "utf8")
@@ -33,11 +50,11 @@ export async function fixture(
       [...outcomes]
         .filter((outcome) => outcome.rule === rule.get())
         .reduce((outcome, candidate) => {
-          if (Outcome.isFailed(outcome)) {
+          if (Outcome.isFailed(outcome) || Outcome.isCantTell(outcome)) {
             return outcome;
           }
 
-          if (Outcome.isFailed(candidate)) {
+          if (Outcome.isFailed(candidate) || Outcome.isCantTell(candidate)) {
             return candidate;
           }
 
@@ -61,13 +78,25 @@ export async function fixture(
   }
 
   if (Outcome.isFailed(outcome) || Outcome.isCantTell(outcome)) {
-    t.context.found.push(outcome);
+    t.context.counts.found++;
     t.log(`${outcome.target}`);
   }
 }
 
 export namespace fixture {
-  export interface Options {}
+  export interface Options {
+    /**
+     * Whether or not this fixture was flagged in the legacy Siteimprove engine.
+     */
+    legacy?: "error" | "warning";
+
+    /**
+     * Whether or not this fixture tests an actual WCAG requirement. Some
+     * fixtures don't actually test WCAG requirements and should therefore not
+     * be failed by Alfa.
+     */
+    requirement?: boolean;
+  }
 
   export function title(
     title: string = "",
