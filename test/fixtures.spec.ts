@@ -112,11 +112,17 @@ test(fixture, None, "colour-and-contrast", "focus-not-visible");
 
 test(fixture, Rules.get("R73"), "typography", "inadequate-line-height-used");
 
-test(fixture, Rules.get("R72"), "typography", "all-caps-text-found", {
-  // While using capitalized text does make it more difficult to read, it is not
-  // a WCAG conformance issue.
-  requirement: false,
-});
+test(
+  fixture,
+  Rules.get("R72"), // Best practice
+  "typography",
+  "all-caps-text-found",
+  {
+    // While using capitalized text does make it more difficult to read, it is not
+    // a WCAG conformance issue.
+    requirement: false,
+  }
+);
 
 test(fixture, None, "typography", "blink-element-found", {
   // As the <blink> element is both deprecated and obsolete, it no longer works
@@ -126,7 +132,7 @@ test(fixture, None, "typography", "blink-element-found", {
 
 test(
   fixture,
-  Rules.get("R85"),
+  Rules.get("R85"), // Best practice
   "typography",
   "italics-used-on-long-sections-of-text",
   {
@@ -140,12 +146,18 @@ test(fixture, None, "typography", "marquee-element-found", {
   legacy: "error",
 });
 
-test(fixture, Rules.get("R75"), "typography", "very-small-text-found", {
-  // Small text is by itself not a WCAG conformance issue as long as it can be
-  // resized without loss of functionality or information, which is the case
-  // here.
-  requirement: false,
-});
+test(
+  fixture,
+  Rules.get("R75"), // Best practice
+  "typography",
+  "very-small-text-found",
+  {
+    // Small text is by itself not a WCAG conformance issue as long as it can be
+    // resized without loss of functionality or information, which is the case
+    // here.
+    requirement: false,
+  }
+);
 
 test(fixture, Rules.get("R71"), "typography", "justified-text-found");
 
@@ -247,13 +259,19 @@ test(fixture, Rules.get("R64"), "headings", "empty-heading", {
   legacy: "error",
 });
 
-test(fixture, Rules.get("R61"), "headings", "missing-h1", {
-  legacy: "error",
+test(
+  fixture,
+  Rules.get("R61"), // Best practice
+  "headings",
+  "missing-h1",
+  {
+    legacy: "error",
 
-  // While not having an <h1> makes it more difficult to navigate by headings,
-  // it is not a WCAG conformance issue.
-  requirement: false,
-});
+    // While not having an <h1> makes it more difficult to navigate by headings,
+    // it is not a WCAG conformance issue.
+    requirement: false,
+  }
+);
 
 test(
   fixture,
@@ -264,7 +282,7 @@ test(
 
 test(
   fixture,
-  Rules.get("R53"),
+  Rules.get("R53"), // Best practice
   "headings",
   "headings-not-structured-in-a-hierarchical-manner",
   {
@@ -290,18 +308,22 @@ test(
   "dt-or-dd-elements-that-are-not-contained-within-a-dl-element"
 );
 
-test(fixture, None, "lists", "improperly-nested-lists");
+test(fixture, Rules.get("R68"), "lists", "improperly-nested-lists");
 
 // Tables
 // https://alphagov.github.io/accessibility-tool-audit/test-cases.html#tables
 
 test(
   fixture,
-  Rules.get("R46"),
+  None,
   "tables",
   "table-with-column-headers-and-double-row-headers",
   {
     legacy: "warning",
+
+    // Both row headers are correctly assigned to the corresponding data cells
+    // and the table therefore works as expected.
+    requirement: false,
   }
 );
 
@@ -905,7 +927,11 @@ test(
   "displaynone-used-to-visually-hide-content-when-it-should-be-available-to-screenreader"
 );
 
-test(fixture, None, "css", "page-zoom-boxes-that-dont-expand-with-the-text");
+test(fixture, None, "css", "page-zoom-boxes-that-dont-expand-with-the-text", {
+  // The page can be resized up to 200% without the text clipping. It is
+  // therefore not a WCAG conformance issue.
+  requirement: false,
+});
 
 // HTML
 // https://alphagov.github.io/accessibility-tool-audit/test-cases.html#html
