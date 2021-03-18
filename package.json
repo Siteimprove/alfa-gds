@@ -2,19 +2,19 @@
   "$schema": "http://json.schemastore.org/package",
   "private": true,
   "scripts": {
-    "fixtures": "node scripts/fixtures.js",
     "build": "tsc --build",
     "clean": "tsc --build --clean",
-    "test": "ava"
+    "test": "ava",
+    "fixtures": "node scripts/fixtures.js"
   },
-  "workspaces": [
-    "vendor/*"
-  ],
   "devDependencies": {
+    "@siteimprove/alfa-act": "^0.15.2",
+    "@siteimprove/alfa-option": "^0.15.2",
+    "@siteimprove/alfa-rules": "^0.15.2",
+    "@siteimprove/alfa-scraper": "^0.15.2",
+    "@siteimprove/alfa-web": "^0.15.2",
     "@types/node": "^14.14.10",
     "ava": "^3.13.0",
-    "husky": "^4.3.0",
-    "lint-staged": "^10.5.2",
     "make-dir": "^3.1.0",
     "plur": "^4.0.0",
     "prettier": "^2.2.0",
@@ -25,16 +25,6 @@
     "verbose": true,
     "files": [
       "test/**/*.spec.js"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{ts,md,js,json,yaml}": [
-      "prettier --write"
     ]
   }
 }
